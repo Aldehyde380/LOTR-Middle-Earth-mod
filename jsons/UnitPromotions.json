@@ -1,12 +1,16 @@
 [
+	//Radagast, the Brown ability
 	{
-		"name": "Hands of the King",
-		"uniques": ["Heal this unit by [50] HP", "Doing so will consume this opportunity to choose a Promotion"],
+		"name": "Healer I",
+		"uniques": ["Healer 1 <hidden from users>", "Comment [All adjacent Land units heal [5] HP at turn end]"]
 	},
 	{
-		"name": "Forth Eolingas!",
-		"uniques": ["Heal this unit by [50] HP", "Doing so will consume this opportunity to choose a Promotion"],
+		"name": "Healer II",
+		"prerequisites":["Healer I"],
+		"uniques": ["Healer 2 <hidden from users>", "Comment [All Land units within 1-tile heal [5] HP at turn end]"]
 	},
+
+	
 	{
 		"name": "Heal Instantly",
 		"uniques": ["Heal this unit by [50] HP", "Doing so will consume this opportunity to choose a Promotion"],
