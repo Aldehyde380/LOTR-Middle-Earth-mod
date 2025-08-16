@@ -68,15 +68,24 @@
 	
 	// Heroes units
 	// Good: 
-	Theodred, Boromir, Eomer, Hammond, Halland, Gamling, Grimbold, Thorin Oakenshield, Gollum, Arwen, Thranduil, Dain II Ironfoot, 
-	Elendil, Treebeard,Celeborn, Radagast, Frodo, Samwise Gamgee, Merry, Pippin, Bilbo, Beorn, Alatar, Pallando, 
+	Theodred, Hammond, Gamling, Grimbold, Arwen, Thranduil, 
+	Elendil, Treebeard, Celeborn, Radagast, Frodo, Samwise Gamgee, Merry, Pippin, Bilbo, Beorn, Alatar, Pallando, 
 	//Evil: 
-	Lurtz, Sauron, Khamul the Easterling, Morgoth, Durin's Bane, Ungoliant, Great Goblin, Bolg (Azog's son), Draugluin (1st werewolf), 
+	Gollum, Sauron, Khamul the Easterling, Morgoth, Durin's Bane, Ungoliant, Great Goblin, Bolg (Azog's son), Draugluin (1st werewolf), 
 	Carcharoth (werewolf), Narag-Shazon (dragon), Tevildo (Lord of the Cat), Maeglin (Dark Elf), Gostir (Cold Drake), Othrod (Orc Lord) 
 	Glaurung (dragon), Lorgan (human), Ancalagon (fire dragon), Thuringwethil (vampire), Lungorthin (balrog), Lhamthanc (serpent), 
 	//Evil nation units: 
 	Barrow Wights (mordor), Bats of Dor-Guldur (mordor), Olog-hai (mordor), Siege-beasts (Mordor/Angmar), Eye of Sauron (building instead)
 	Flies of mordor, 
+	{
+		"name": "Radagast, the Brown",
+		"unitType": "Melee",
+		"movement": 2,
+		"strength": 14,
+		"promotions": ["Hero"],
+		"uniques": ["Consumes [1] [Special]", "Unbuildable"],
+
+	},
 	{
 		"name": "Gandalf, the Grey",
 		"unitType": "Melee",
@@ -100,9 +109,11 @@
 		"uniques": ["Never appears as a Barbarian unit","Consumes [1] [Special]", "Only available <with [Special]>", 
 			"[+50]% Strength <vs [Balrog] units>", "[+50]% Strength <vs [Nazgul] units>", "Ignores Zone of Control", "Unbuildable"],
 	},
+    //Rohan
 	{
 		"name": "Eowyn",
 		"unitType": "Mounted",
+		"uniqueTo": "Rohan",
 		"movement": 4,
 		"strength": 14,
 		"promotions": ["Hero"],
@@ -111,14 +122,26 @@
 	{
 		"name": "Theoden",
 		"unitType": "Mounted",
+		"uniqueTo": "Rohan",
 		"movement": 4,
 		"strength": 16,
 		"promotions": ["Hero"],
 		"uniques": ["Unbuildable", "[+15]% Strength bonus for [Military] units within [2] tiles"],
 	},
 	{
+		"name": "Éomer", //Modify stats
+		"unitType": "Mounted",
+		"uniqueTo": "Rohan",
+		"movement": 4,
+		"strength": 16,
+		"promotions": ["Hero"],
+		"uniques": ["Unbuildable", "[+15]% Strength bonus for [Military] units within [2] tiles"],
+	},
+	//Gondor
+	{
 		"name": "Faramir",
 		"unitType": "Ranged",
+		"uniqueTo": "Gondor",
 		"movement": 2,
 		"strength": 18,
 		"rangedStrength": 15,
@@ -127,50 +150,100 @@
 		"uniques": ["Unbuildable", "Ignores terrain cost"],
 	},
 	{
+		"name": "Aragorn",
+		"unitType": "Melee",
+		"uniqueTo": "Gondor",
+		"movement": 2,
+		"strength": 18,
+		"promotions": ["Hero","Medic"],
+		"uniques": [
+			"Unbuildable", 
+			"Ignores terrain cost", 
+			"[+25]% Strength <starting from the [Second Age]>",
+			"[+25]% Strength <starting from the [Third Age]>",
+			"[+1] Sight <starting from the [Third Age]>",
+			"[+25]% Strength <starting from the [Fourth Age]>",
+			"[+1] Movement <starting from the [Fourth Age]>",
+		],
+	},
+	{
+		"name": "Boromir",
+		"unitType": "Melee",
+		"uniqueTo": "Gondor",
+		"movement": 2,
+		"strength": 18,
+		"promotions": ["Hero"],
+		"uniques": [
+			"Unbuildable", 
+			"Ignores terrain cost",
+			"[+15]% Strength bonus for [Military] units within [2] tiles",
+			"[+20]% Strength bonus for friendly [Military] units <when fighting in [Friendly Land] tiles>"
+		],
+	},
+	//Noldor Elves
+	{
 		"name": "Elrond",
 		"unitType": "Melee",
+		"uniqueTo": "Noldor Elves",
 		"movement": 2,
 		"strength": 17,
 		"promotions": ["Hero"],
 		"uniques": ["Unbuildable", "[+1] Sight"],
 	},
 	{
-		"name": "Aragorn",
-		"unitType": "Melee",
-		"movement": 2,
-		"strength": 18,
-		"promotions": ["Hero","Medic"],
-		"uniques": ["Unbuildable", "Ignores terrain cost"],
-	},
-	{
-		"name": "Gimli",
-		"unitType": "Melee",
-		"movement": 2,
-		"strength": 18,
-		"promotions": ["Hero"],
-		"uniques": ["Unbuildable", "[+50]% Strength <when attacking>"],
-	},
-	{
 		"name": "Galadriel",
 		"unitType": "Melee",
+		"uniqueTo": "Noldor Elves",
 		"movement": 2,
 		"strength": 15,
 		"promotions": ["Hero","Ósanwe"],
 		"uniques": ["Unbuildable", "[+20]% Strength <when fighting in [Friendly Land] tiles>"],
 	},
+	//Sindar Elves
 	{
 		"name": "Legolas",
 		"unitType": "Ranged",
+		"uniqueTo": "Sindar Elves",
 		"movement": 2,
 		"strength": 14,
 		"rangedStrength": 18,
 		"promotions": ["Hero","Logistics"],
 		"uniques": ["Unbuildable", "[50]% Strength <vs [Mumakil] units>", "[50]% Strength <vs [Uruk-Hai] units>"],
 	},
-	
+	//Dwarves
+	{
+		"name": "Gimli",
+		"unitType": "Melee",
+		"uniqueTo": "Dwarves",
+		"movement": 2,
+		"strength": 18,
+		"promotions": ["Hero"],
+		"uniques": ["Unbuildable", "[+50]% Strength <when attacking>"],
+	},
+	{
+		"name": "Thorin Oakenshield",
+		"unitType": "Melee",
+		"uniqueTo": "Dwarves",
+		"movement": 2,
+		"strength": 18,
+		"promotions": ["Hero"],
+		"uniques": ["Unbuildable", "[+50]% Strength <when attacking>", "[50]% Strength <vs [Goblin] units>"],
+	},
+	{
+		"name": "Dain II Ironfoot",
+		"unitType": "Melee",
+		"uniqueTo": "Dwarves",
+		"movement": 2,
+		"strength": 18,
+		"promotions": ["Hero"],
+		"uniques": ["Unbuildable", "[+50]% Strength <when attacking>"],
+	},
+
+	//Evil Hero Units
 	{
 		"name": "Wormtongue",
 		"unitType": "Melee",
+		"uniqueTo": "Isengard",
 		"movement": 3,
 		"strength": 12,
 		"promotions": ["Hero"],
@@ -179,6 +252,7 @@
 	{
 		"name": "Lieutenant Gothmog",
 		"unitType": "Melee",
+		"uniqueTo": "Mordor",
 		"movement": 2,
 		"strength": 14,
 		"promotions": ["Hero"],
@@ -211,6 +285,7 @@
 	{
 		"name": "Saruman",
 		"unitType": "Ranged",
+		"uniqueTo": "Isengard",
 		"movement": 2,
 		"strength": 18,
 		"range": 3,
@@ -229,6 +304,7 @@
 	{
 		"name": "Witch-king",
 		"unitType": "Mounted",
+		"uniqueTo": "Angmar",
 		"movement": 4,
 		"strength": 23,
 		"promotions": ["Hero"],
@@ -237,6 +313,7 @@
 	{
 		"name": "Mouth of Sauron",
 		"unitType": "Ranged",
+		"uniqueTo": "Mordor",
 		"movement": 4,
 		"range": 1,
 		"strength": 18,
