@@ -351,6 +351,13 @@
 		"uniques": ["[-2 Culture] <after adopting [Constitution]>","Unbuildable"],
 	},
 	{
+		"name": "Summon Radagast",
+		"isWonder": true,
+		"cost": 170,
+		"uniques": ["Hero Spawner","Only available <with [SpecialIstari]>", "[-15]% Production when constructing [Hero Spawner] wonders [in all cities]","[-2 Culture] <after adopting [Constitution]>","Free [Radagast, the Brown] appears", "Unsellable", "Provides [1] [Special]", 
+				"Only available <if [Good] is constructed>"],
+	},
+	{
 		"name": "Summon Gandalf",
 		"isWonder": true,
 		"cost": 170,
