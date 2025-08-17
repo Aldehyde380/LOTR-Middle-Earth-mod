@@ -595,7 +595,9 @@
 		"name": "Rhosgobel",
 		"adjective": ["Rhosgobel"],
 		"cityStateType": "Mercantile",
-
+		"uniques": [
+            		"Provides [1] [SpecialIstari]",
+		],
 		"declaringWar": "You leave us no choice. War it must be.",
 		"attacked": "Very well, this shall not be forgotten.",
 		"defeated": "We... defeated? No... we had so much work to do!",
