@@ -1,5 +1,3 @@
-# Unciv-mod-example
+# LOTR-Middle-Earth-mod
 
-An example mod for Unciv, that adds one new Civilization.
-
-For information on how to build and use mods, please refer to [the setup instructions](https://yairm210.github.io/Unciv/Modders/Making-a-new-Civilization/)
+This is updating and adding additional features, units, buildings, and more to RealBambooLord's LOTR-reworked mod. 
