@@ -12,6 +12,10 @@
 		"resourceType": "Bonus",
 	},
 	{
+		"name": "SpecialIstari",
+		"resourceType": "Bonus",
+	},
+	{
 		"name": "SpecialEnt",
 		"resourceType": "Bonus",
 	},
