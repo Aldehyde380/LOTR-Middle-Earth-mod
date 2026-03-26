@@ -412,10 +412,10 @@
 			{
 				"name": "Fascism",
 				"uniques": [
-			"Double quantity of [Horses] produced",
-			"Double quantity of [Iron] produced",
-			"Double quantity of [Niter] produced",
-			"Double quantity of [Copper] produced",
+			"[+100]% of [Horses] resource production",
+			"[+100]% of [Iron] resource production",
+			"[+100]% of [Niter] resource production",
+			"[+100]% of [Copper] resource production",
                     				"[+2] Movement <for [Great General] units>"],
 				"requires": ["Populism","Militarism"],
 				"row": 2,
@@ -430,7 +430,7 @@
 			},
 			{
 				"name": "Total War",
-				"uniques": ["[+15]% Production when constructing [Military] units [in all cities]", "New [Military] units start with [15] Experience [in all cities]"],
+				"uniques": ["[+15]% Production when constructing [Military] units [in all cities]", "New [Military] units start with [15] XP [in all cities]"],
 				"requires": ["Police State","Fascism"],
 				"row": 3,
 				"column": 4
