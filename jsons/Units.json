@@ -68,15 +68,15 @@
 	
 	// Heroes units
 	// Good: 
-	Theodred, Hammond, Gamling, Grimbold, Arwen, Thranduil, 
-	Elendil, Treebeard, Celeborn, Radagast, Frodo, Samwise Gamgee, Merry, Pippin, Bilbo, Beorn, Alatar, Pallando, 
+	//Theodred, Hammond, Gamling, Grimbold, Arwen, Thranduil, 
+	//Elendil, Treebeard, Celeborn, Radagast, Frodo, Samwise Gamgee, Merry, Pippin, Bilbo, Beorn, Alatar, Pallando, 
 	//Evil: 
-	Gollum, Sauron, Khamul the Easterling, Morgoth, Durin's Bane, Ungoliant, Great Goblin, Bolg (Azog's son), Draugluin (1st werewolf), 
-	Carcharoth (werewolf), Narag-Shazon (dragon), Tevildo (Lord of the Cat), Maeglin (Dark Elf), Gostir (Cold Drake), Othrod (Orc Lord) 
-	Glaurung (dragon), Lorgan (human), Ancalagon (fire dragon), Thuringwethil (vampire), Lungorthin (balrog), Lhamthanc (serpent), 
+	//Gollum, Sauron, Khamul the Easterling, Morgoth, Durin's Bane, Ungoliant, Great Goblin, Bolg (Azog's son), Draugluin (1st werewolf), 
+	//Carcharoth (werewolf), Narag-Shazon (dragon), Tevildo (Lord of the Cat), Maeglin (Dark Elf), Gostir (Cold Drake), Othrod (Orc Lord) 
+	//Glaurung (dragon), Lorgan (human), Ancalagon (fire dragon), Thuringwethil (vampire), Lungorthin (balrog), Lhamthanc (serpent), 
 	//Evil nation units: 
-	Barrow Wights (mordor), Bats of Dor-Guldur (mordor), Olog-hai (mordor), Siege-beasts (Mordor/Angmar), Eye of Sauron (building instead)
-	Flies of mordor, 
+	//Barrow Wights (mordor), Bats of Dor-Guldur (mordor), Olog-hai (mordor), Siege-beasts (Mordor/Angmar), Eye of Sauron (building instead)
+	//Flies of mordor, 
 	{
 		"name": "Radagast, the Brown",
 		"unitType": "Melee",
