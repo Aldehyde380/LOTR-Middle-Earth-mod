@@ -177,7 +177,7 @@
 			"Unbuildable", 
 			"Ignores terrain cost",
 			"[+15]% Strength bonus for [Military] units within [2] tiles",
-			"[+20]% Strength bonus for friendly [Military] units <when fighting in [Friendly Land] tiles>"
+			"[+20]% Strength bonus for friendly [Military] units <when fighting in [Friendly {Land}] tiles>"
 		],
 	},
 	//Noldor Elves
@@ -197,7 +197,7 @@
 		"movement": 2,
 		"strength": 15,
 		"promotions": ["Hero","Ósanwe"],
-		"uniques": ["Unbuildable", "[+20]% Strength <when fighting in [Friendly Land] tiles>"],
+		"uniques": ["Unbuildable", "[+20]% Strength <when fighting in [Friendly {Land}] tiles>"],
 	},
 	//Sindar Elves
 	{
