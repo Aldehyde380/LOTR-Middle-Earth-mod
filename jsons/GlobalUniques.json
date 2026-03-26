@@ -16,5 +16,5 @@
 		//Healer
 		"[This Unit] heals [5] HP <upon turn end> <when adjacent to a [Healer 1] unit> <for [{non-[Air]} {Land}] units>",
 		"[This Unit] heals [5] HP <upon turn end> <when adjacent to a [Healer 2] unit> <for [{non-[Air]} {Land}] units>",
-	];
+	],
 }
