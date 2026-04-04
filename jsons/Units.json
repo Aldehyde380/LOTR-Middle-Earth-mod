@@ -126,7 +126,23 @@
 		"movement": 4,
 		"strength": 16,
 		"promotions": ["Hero"],
-		"uniques": ["Unbuildable", "[+15]% Strength bonus for [Military] units within [2] tiles"],
+		"uniques": ["Comment [Strength scales with era\n\nAbilities List:]",
+					//Abilities
+					"Comment [[Indomitable]: Gain Immunity from all negative statuses. Cost: 100 [Honor]]", 
+					"Comment [[Forth Eorlingas!]: +15% Strength for all [Friendly] units, stacks with Great General. Cost: 150 [Honor]]",
+					"Comment [[Dismount]: Dismount to become [Sword] unit. Cooldown: 3 turns.]",
+					"Comment [[Snowmane]: Mount Snowmane to become a [Mounted] unit. Cooldown: 5 turns.]",	
+					
+					//Strength scaling
+					"[+15] Strength <during the [Second Age]> <hidden from users>",							//31
+					"[+20] Strength <during the [Third Age]> <hidden from users>",							//36
+					"[+30] Strength <during the [Fourth Age]> <hidden from users>",							//46
+
+					"Limited to [1] per Civilization <hidden from users>", 
+					"Cannot be purchased <hidden from users>",
+					"Never appears as a Barbarian unit <hidden from users>", 
+					"Unbuildable <hidden from users>","[+15]% Strength bonus for [Military] units within [2] tiles",
+					],
 	},
 	{
 		"name": "Éomer", //Modify stats
