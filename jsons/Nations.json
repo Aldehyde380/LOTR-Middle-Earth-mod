@@ -42,7 +42,13 @@
 					"Instantly gain [3] [Valor] <upon defeating a [{Second Age} {non-[Barbarian]} unit> <hidden from users>",
 					"Instantly gain [8] [Valor] <upon defeating a [{Third Age} {non-[Barbarian]} unit> <hidden from users>",
 					"Instantly gain [15] [Valor] <upon defeating a [{Fourth Age} {non-[Barbarian]} unit> <hidden from users>",
-					
+
+					//Hero Summon
+					"May buy [Theoden] units for [30] [Valor] [in all cities] <hidden from user>",
+					"May buy [Eomer] units for [15] [Valor] [in all cities] <hidden from user>",
+					"May buy [Eowyn] units for [5] [Valor] [in all cities] <hidden from user>",
+
+					//General stuff
 					"Gain a free [Rings] [in capital]",
 					"Gain a free [Good] [in capital]",
 					"Starts with [Animal Husbandry]",
