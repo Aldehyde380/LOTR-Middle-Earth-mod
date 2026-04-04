@@ -11,6 +11,14 @@
         "name": "Mounted",
         "movementType": "Land"
     },
+    {
+        "name": "Sword",
+        "movementType": "Land"
+    },
+    {
+        "name": "Lancer",
+        "movementType": "Land"
+    },
  
     {
         "name": "Siege",
