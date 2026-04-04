@@ -71,6 +71,31 @@
 		"name": "Dwarven Rings",
 		"resourceType": "Bonus",
 	},
+
+	// Rohan
+	{
+		"name": "Valor",	
+		"resourceType": "Strategic",
+		"uniques": [
+			"Not shown on world screen <for [non-[Rohan]] Civilizations>", "Doesn't generate naturally",
+			"Stockpiled",
+			"Cannot be traded", 
+			"Excluded from map editor", 
+			"Will not be displayed in Civilopedia"
+		]
+	},
+	{
+		"name": "Honor",	
+		"resourceType": "Strategic",
+		"uniques": [
+			"Not shown on world screen <for [non-[Rohan]] Civilizations>", "Doesn't generate naturally",
+			"Stockpiled",
+			"Cannot be traded", 
+			"Excluded from map editor", 
+			"Will not be displayed in Civilopedia"
+		]
+	},
+		
 	// Bonus resources
 	{
 		"name": "Cattle",
