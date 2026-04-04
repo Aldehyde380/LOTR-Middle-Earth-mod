@@ -38,8 +38,11 @@
 
 					//Valor
 					"Instantly gain [10] [Valor] <upon entering a new era> <hidden from users>",
-					"Instantly gain [10] [Valor] <upon defeating a [{non-[Barbarian]} unit> <hidden from users>",
-			
+					"Instantly gain [1] [Valor] <upon defeating a [{First Age} {non-[Barbarian]} unit> <hidden from users>",
+					"Instantly gain [3] [Valor] <upon defeating a [{Second Age} {non-[Barbarian]} unit> <hidden from users>",
+					"Instantly gain [8] [Valor] <upon defeating a [{Third Age} {non-[Barbarian]} unit> <hidden from users>",
+					"Instantly gain [15] [Valor] <upon defeating a [{Fourth Age} {non-[Barbarian]} unit> <hidden from users>",
+					
 					"Gain a free [Rings] [in capital]",
 					"Gain a free [Good] [in capital]",
 					"Starts with [Animal Husbandry]",
