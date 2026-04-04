@@ -31,7 +31,22 @@
 		"innerColor": [224, 218, 157],
 		"uniqueName": "Muster the Rohirrim",
 		"uniqueText": "Starts with Animal Husbandry. +1 Movement for all Mounted units, double quantity of Horses and Horses provide +1 Food."
-		"uniques": ["Gain a free [Rings] [in capital]","Gain a free [Good] [in capital]","Starts with [Animal Husbandry]","[+1] Movement <for [Mounted] units>","[+100]% [Horses] resource production","[+1 Food] from every [Horses]"],
+		"uniques": ["Comment [Gain 25 [Faith] and 1 [Valor] upon losing a unit in battle]",
+					"Comment [Gain 1 [Valor] upon defeating a non-[Barbarian] unit]",
+					"Comment [Gain 10 [Valor] upon entering new era]",
+					"Comment [Consume [Valor] to summon heroic units of Rohan]",
+
+					//Valor
+					"Instantly gain [10] [Valor] <upon entering a new era> <hidden from users>",
+					"Instantly gain [10] [Valor] <upon defeating a [{non-[Barbarian]} unit> <hidden from users>",
+			
+					"Gain a free [Rings] [in capital]",
+					"Gain a free [Good] [in capital]",
+					"Starts with [Animal Husbandry]",
+					"[+1] Movement <for [Mounted] units>",
+					"[+100]% [Horses] resource production",
+					"[+1 Food] from every [Horses]"
+					],
 		"cities": ["Edoras","Helm's Deep","Snowbourn","Aldburg","Dunharrow","Grimslade","Fords of Isen","Gap of Rohan","Eastemnet","Eastfold","Westemnet","Folde","Westfold","The Wold","West-March","Minhiriath","Meduseld","Framsburg"]
 	},
 		{
