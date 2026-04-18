@@ -518,7 +518,7 @@
 		"strength": 13,
 		"cost": 56,
 		"obsoleteTech": "Iron Working",
-		"upgradesTo": "Pikeman",
+		"upgradesTo": "Swordsman",
 		"uniques": ["[+50]% Strength <vs [Mounted] units>"],
 		"attackSound": "metalhit"
 	},
@@ -550,7 +550,7 @@
 			"[+1000]% Strength <when defending>",
 			"Can pass through impassable tiles","All tiles cost 1 movement",
 			"Can see invisible [All] units","[-2] Sight",
-			"[-20]% Strength for enemy [Military] units in adjacent [All] tiles","Can only attack [Miltary] units",
+			"[-20]% Strength for enemy [Military] units in adjacent [All] tiles","Can only attack [Military] units",
 			"Unit will heal every turn, even if it performs an action","[-25] HP when healing","[-5] HP when healing <in [Friendly Land] tiles>",
 			"Never appears as a Barbarian unit",
 			"Unbuildable <in cities without a [Dead Supply]>"
