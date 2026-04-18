@@ -44,9 +44,9 @@
 					"Instantly gain [15] [Valor] <upon defeating a [{Fourth Age} {non-[Barbarian]} unit> <hidden from users>",
 
 					//Hero Summon
-					"May buy [Theoden] units for [30] [Valor] [in all cities] <hidden from user>",
-					"May buy [Eomer] units for [15] [Valor] [in all cities] <hidden from user>",
-					"May buy [Eowyn] units for [5] [Valor] [in all cities] <hidden from user>",
+					"May buy [Theoden] units for [0] [Faith] [in all cities] <when above [29] [Valor]> <hidden from user>",
+					"May buy [Eomer] units for [0] [Faith] [in all cities] <when above [14] [Valor]> <hidden from user>",
+					"May buy [Eowyn] units for [0] [Faith] [in all cities] <when above [4] [Valor]> <hidden from user>",
 
 					//General stuff
 					"Gain a free [Rings] [in capital]",
