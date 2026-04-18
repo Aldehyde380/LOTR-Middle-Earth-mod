@@ -39,9 +39,9 @@
 					//Valor
 					"Instantly gain [10] [Valor] <upon entering a new era> <hidden from users>",
 					"Instantly gain [1] [Valor] <upon defeating a [{First Age} {non-[Barbarian]}] unit> <hidden from users>",
-					"Instantly gain [3] [Valor] <upon defeating a [{Second Age} {non-[Barbarian]} unit> <hidden from users>",
-					"Instantly gain [8] [Valor] <upon defeating a [{Third Age} {non-[Barbarian]} unit> <hidden from users>",
-					"Instantly gain [15] [Valor] <upon defeating a [{Fourth Age} {non-[Barbarian]} unit> <hidden from users>",
+					"Instantly gain [3] [Valor] <upon defeating a [{Second Age} {non-[Barbarian]}] unit> <hidden from users>",
+					"Instantly gain [8] [Valor] <upon defeating a [{Third Age} {non-[Barbarian]}] unit> <hidden from users>",
+					"Instantly gain [15] [Valor] <upon defeating a [{Fourth Age} {non-[Barbarian]}] unit> <hidden from users>",
 
 					//Hero Summon
 					"May buy [Theoden] units for [0] [Faith] [in all cities] <when above [29] [Valor]> <hidden from users>",
@@ -550,9 +550,9 @@
 		"adjective": ["Paths of the Dead"],
 		"cityStateType": "Paths of the Dead",
 		"uniques": [
-			"[-1] Movement <for [Dead Man of Dunharrow] units> <in [Enemy land] tiles>",
-			"[+20]% Strength <in [Friendly land] tiles>",
-			"[-20]% Strength <for [Dead Man of Dunharrow] units> <in [Friendly land] tiles>",
+			"[-1] Movement <for [Dead Man of Dunharrow] units> <in [Enemy Land] tiles>",
+			"[+20]% Strength <in [Friendly Land] tiles>",
+			"[-20]% Strength <for [Dead Man of Dunharrow] units> <in [Friendly Land] tiles>",
 		],
 
 		"declaringWar": "You leave us no choice. War it must be.",
