@@ -591,4 +591,12 @@
 		"name": "Ósanwe", 
 		"uniques": ["[+15]% Strength bonus for [Military] units within [10] tiles"],
 	}
+	{
+		"name": "Good", 
+		"uniques": [],
+	},
+	{
+		"name": "Evil", 
+		"uniques": [],
+	}
 ]
