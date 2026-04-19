@@ -38,7 +38,7 @@
 		"strength": 5,
 		"rangedStrength": 19,
 		"cost": 75,
-		"uniques": ["Unbuildable"],
+		"uniques": ["Unbuildable", [Evil]],
 		"attackSound": "arrow",
 	},
 	{
@@ -91,7 +91,7 @@
 		"unitType": "Melee",
 		"movement": 2,
 		"strength": 16,
-		"promotions": ["Hero"],
+		"promotions": ["Hero", "Good"],
 		"upgradesTo": "Gandalf, the White",
 		"uniques": ["Consumes [1] [Special]", "Unbuildable", "[+50]% Strength <vs [Balrog] units> <with [50]% chance>","Free [Gandalf, the White] appears <upon being defeated>"],
 
@@ -104,7 +104,7 @@
 		"rangedStrength": 14,
 		"range": 1,
 		"cost": 120,
-		"promotions": ["Hero"],
+		"promotions": ["Hero", "Good"],
 		"requiredTech": "Horseback Riding",
 		"uniques": ["Never appears as a Barbarian unit","Consumes [1] [Special]", "Only available <with [Special]>", 
 			"[+50]% Strength <vs [Balrog] units>", "[+50]% Strength <vs [Nazgul] units>", "Ignores Zone of Control", "Unbuildable"],
@@ -117,7 +117,7 @@
 		"movement": 4,
 		"strength": 18,
 		"requiredResource": "Valor",
-		"promotions": ["Hero"],
+		"promotions": ["Hero", "Good"],
 		"uniques": ["Comment [Strength scales with era\n\nAbilities List:]",
 					//Abilities
 					"Comment [[Indomitable]: Gain Immunity from all negative statuses. Cost: 100 [Honor]]", 
@@ -144,7 +144,7 @@
 		"uniqueTo": "Rohan",
 		"movement": 2,
 		"strength": 10,
-		"promotions": ["Hero"],
+		"promotions": ["Hero", "Good"],
 		"uniques": ["Comment [Strength scales with era\n\nAbilities List:]",
 					//Abilities
 					"Comment [[Indomitable]: Gain Immunity from all negative statuses. Cost: 100 [Valor]]", 
@@ -170,7 +170,7 @@
 		"uniqueTo": "Rohan",
 		"movement": 4,
 		"strength": 16,
-		"promotions": ["Hero"],
+		"promotions": ["Hero", "Good"],
 		"uniques": ["Comment [Strength scales with era\n\nAbilities List:]",
 					//Abilities
 					"Comment [[Éored]: Give [Éored] promotion to friendly units. Cost: 100 [Valor]]", 
@@ -196,7 +196,7 @@
 		"uniqueTo": "Rohan",
 		"movement": 4,
 		"strength": 14,
-		"promotions": ["Hero"],
+		"promotions": ["Hero", "Good"],
 		"uniques": ["Comment [Strength scales with era\n\nAbilities List:]",
 					//Abilities
 					"Comment [[Shieldmaiden]: Grant . Cost: 100 [Honor]]", 
@@ -226,7 +226,7 @@
 		"movement": 2,
 		"strength": 12,
 		"upgradesTo": "Aragorn"
-		"promotions": ["Hero","Survivalist"],
+		"promotions": ["Hero", "Good", "Survivalist"],
 		"uniques": ["Comment [Strength scales with era\n\nAbilities List:]",
 					//Abilities
 					"Comment [[Ranger of the North]: [+1] Movement, [+1] Sight, [Surivalist]]", 
@@ -250,7 +250,7 @@
 		"strength": 28,
 		"requiredResource": "Andúril",
 		"upgradesTo": "King Elessar"
-		"promotions": ["Hero","Medic"],
+		"promotions": ["Hero","Good","Medic"],
 		"uniques": ["Comment [Strength scales with era\n\nAbilities List:]",
 					//Abilities
 					"Comment [[Hands of the King]: ???", 
@@ -275,7 +275,7 @@
 		"uniqueTo": "Gondor",
 		"movement": 2,
 		"strength": 35,
-		"promotions": ["Hero","Medic"],
+		"promotions": ["Hero","Good","Medic"],
 		"uniques": [
 			"Unbuildable", 
 			"Ignores terrain cost", 
@@ -294,7 +294,7 @@
 		"strength": 18,
 		"rangedStrength": 15,
 		"range": 2,
-		"promotions": ["Hero"],
+		"promotions": ["Hero","Good",],
 		"uniques": ["Unbuildable", "Ignores terrain cost"],
 	},
 	{
@@ -303,7 +303,7 @@
 		"uniqueTo": "Gondor",
 		"movement": 2,
 		"strength": 18,
-		"promotions": ["Hero"],
+		"promotions": ["Hero","Good",],
 		"uniques": [
 			"Unbuildable", 
 			"Ignores terrain cost",
@@ -318,7 +318,7 @@
 		"uniqueTo": "Noldor Elves",
 		"movement": 2,
 		"strength": 17,
-		"promotions": ["Hero"],
+		"promotions": ["Hero","Good",],
 		"uniques": ["Unbuildable", "[+1] Sight"],
 	},
 	{
@@ -327,7 +327,7 @@
 		"uniqueTo": "Noldor Elves",
 		"movement": 2,
 		"strength": 15,
-		"promotions": ["Hero","Ósanwe"],
+		"promotions": ["Hero","Good","Ósanwe"],
 		"uniques": ["Unbuildable", "[+20]% Strength <when fighting in [Friendly Land] tiles>"],
 	},
 	//Sindar Elves
@@ -338,7 +338,7 @@
 		"movement": 2,
 		"strength": 14,
 		"rangedStrength": 18,
-		"promotions": ["Hero","Logistics"],
+		"promotions": ["Hero","Good","Logistics"],
 		"uniques": ["Unbuildable", "[50]% Strength <vs [Mumakil] units>", "[50]% Strength <vs [Uruk-Hai] units>"],
 	},
 	//Dwarves
@@ -348,7 +348,7 @@
 		"uniqueTo": "Dwarves",
 		"movement": 2,
 		"strength": 18,
-		"promotions": ["Hero"],
+		"promotions": ["Hero","Good"],
 		"uniques": ["Unbuildable", "[+50]% Strength <when attacking>"],
 	},
 	{
@@ -357,7 +357,7 @@
 		"uniqueTo": "Dwarves",
 		"movement": 2,
 		"strength": 18,
-		"promotions": ["Hero"],
+		"promotions": ["Hero","Good"],
 		"uniques": ["Unbuildable", "[+50]% Strength <when attacking>", "[50]% Strength <vs [Goblins] units>"],
 	},
 	{
@@ -366,7 +366,7 @@
 		"uniqueTo": "Dwarves",
 		"movement": 2,
 		"strength": 18,
-		"promotions": ["Hero"],
+		"promotions": ["Hero","Good"],
 		"uniques": ["Unbuildable", "[+50]% Strength <when attacking>"],
 	},
 
@@ -377,7 +377,7 @@
 		"uniqueTo": "Isengard",
 		"movement": 3,
 		"strength": 12,
-		"promotions": ["Hero"],
+		"promotions": ["Hero","Evil"],
 		"uniques": ["Unbuildable", "Withdraws before melee combat <with [100]% chance>"],
 	},
 	{
@@ -386,7 +386,7 @@
 		"uniqueTo": "Mordor",
 		"movement": 2,
 		"strength": 14,
-		"promotions": ["Hero"],
+		"promotions": ["Hero","Evil"],
 		"uniques": ["Unbuildable", "Can move after attacking"],
 	},
 	{
@@ -394,7 +394,7 @@
 		"unitType": "Melee",
 		"movement": 2,
 		"strength": 23,
-		"promotions": ["Hero"],
+		"promotions": ["Hero","Evil"],
 		"uniques": ["Unbuildable", "Balrog"],
 	},
 	{
@@ -402,7 +402,7 @@
 		"unitType": "Melee",
 		"movement": 3,
 		"strength": 16,
-		"promotions": ["Hero"],
+		"promotions": ["Hero","Evil"],
 		"uniques": ["Unbuildable", "Heals [40] damage if it kills a unit"],
 	},
 	{
@@ -410,7 +410,7 @@
 		"unitType": "Flying",
 		"movement": 4,
 		"strength": 20,
-		"promotions": ["Hero","Dragon"],
+		"promotions": ["Hero","Evil","Dragon"],
 		"uniques": ["Unbuildable", "Earn [10]% of killed [Military] unit's [Cost] as [Gold]"],
 	},
 	{
@@ -421,7 +421,7 @@
 		"strength": 18,
 		"range": 3,
 		"rangedStrength": 18,
-		"promotions": ["Hero"],
+		"promotions": ["Hero","Evil"],
 		"uniques": ["Unbuildable", "Must set up to ranged attack", "[50]% Strength <vs [Gandalf, the Grey] units>"],
 	},
 	{
@@ -429,7 +429,7 @@
 		"unitType": "Melee",
 		"movement": 3,
 		"strength": 20,
-		"promotions": ["Hero","Tunnel"],
+		"promotions": ["Hero","Evil","Tunnel"],
 		"uniques": ["Unbuildable"],
 	},
 	{
@@ -438,7 +438,7 @@
 		"uniqueTo": "Angmar",
 		"movement": 4,
 		"strength": 23,
-		"promotions": ["Hero"],
+		"promotions": ["Hero","Evil"],
 		"uniques": ["Unbuildable", "[+15]% Strength bonus for [Military] units within [2] tiles", "[-10]% Strength for enemy [Military] units in adjacent [All] tiles"],
 	},
 	{
@@ -449,7 +449,7 @@
 		"range": 1,
 		"strength": 18,
 		"rangedStrength": 18,
-		"promotions": ["Hero"],
+		"promotions": ["Hero","Evil"],
 		"uniques": ["Unbuildable", "No movement cost to pillage"],
 	},
 	{
@@ -458,7 +458,7 @@
 		"uniqueTo": "Goblins",
 		"movement": 3,
 		"strength": 20,
-		"promotions": ["Hero"],
+		"promotions": ["Hero","Evil"],
 		"uniques": ["Unbuildable",]
 	},
 
