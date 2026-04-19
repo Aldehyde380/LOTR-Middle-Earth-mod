@@ -38,7 +38,7 @@
 		"strength": 5,
 		"rangedStrength": 19,
 		"cost": 75,
-		"uniques": ["Unbuildable", [Evil]],
+		"uniques": ["Unbuildable"],
 		"attackSound": "arrow",
 	},
 	{
