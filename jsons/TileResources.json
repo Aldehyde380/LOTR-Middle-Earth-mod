@@ -84,11 +84,12 @@
 			"Will not be displayed in Civilopedia"
 		]
 	},
+	//Gondor
 	{
 		"name": "Honor",	
 		"resourceType": "Strategic",
 		"uniques": [
-			"Not shown on world screen <for [non-[Rohan]] Civilizations>", "Doesn't generate naturally",
+			"Not shown on world screen <for [non-[Gondor]] Civilizations>", "Doesn't generate naturally",
 			"Stockpiled",
 			"Cannot be traded", 
 			"Excluded from map editor", 
