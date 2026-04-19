@@ -82,7 +82,7 @@
 		"unitType": "Melee",
 		"movement": 2,
 		"strength": 14,
-		"promotions": ["Hero"],
+		"promotions": ["Hero"], 
 		"uniques": ["Consumes [1] [Special]", "Unbuildable"],
 
 	},
@@ -111,20 +111,11 @@
 	},
     //Rohan
 	{
-		"name": "Eowyn",
-		"unitType": "Mounted",
-		"uniqueTo": "Rohan",
-		"movement": 4,
-		"strength": 14,
-		"promotions": ["Hero"],
-		"uniques": ["Unbuildable", "[300]% Strength <vs [{Witch-King}] units>"],
-	},
-	{
 		"name": "Theoden",
 		"unitType": "Mounted",
 		"uniqueTo": "Rohan",
 		"movement": 4,
-		"strength": 16,
+		"strength": 18,
 		"requiredResource": "Valor",
 		"promotions": ["Hero"],
 		"uniques": ["Comment [Strength scales with era\n\nAbilities List:]",
@@ -135,9 +126,9 @@
 					"Comment [[Snowmane]: Mount Snowmane to become a [Mounted] unit. Cooldown: 5 turns.]",	
 					
 					//Strength scaling
-					"[+15] Strength <during the [Second Age]> <hidden from users>",							//31
-					"[+20] Strength <during the [Third Age]> <hidden from users>",							//36
-					"[+30] Strength <during the [Fourth Age]> <hidden from users>",							//46
+					"[+10] Strength <during the [Second Age]> <hidden from users>",							//28
+					"[+20] Strength <during the [Third Age]> <hidden from users>",							//38
+					"[+30] Strength <during the [Fourth Age]> <hidden from users>",							//48
 
 					"Limited to [1] per Civilization <hidden from users>", 
 					"Instantly consumes [30] [Valor]", 
@@ -180,7 +171,52 @@
 		"movement": 4,
 		"strength": 16,
 		"promotions": ["Hero"],
-		"uniques": ["Unbuildable", "[+15]% Strength bonus for [Military] units within [2] tiles"],
+		"uniques": ["Comment [Strength scales with era\n\nAbilities List:]",
+					//Abilities
+					"Comment [[Éored]: Give [Éored] promotion to friendly units. Cost: 100 [Honor]]", 
+					"Comment [[Death!]: +15% Strength for all [Friendly] units, stacks with Great General. Cost: 150 [Honor]]",
+					"Comment [[Éomer Éadig]: Grant Golden Age or turn to King Éomer after Theoden's death?. Cooldown: 3 turns.]",
+					
+					//Strength scaling
+					"[+10] Strength <during the [Second Age]> <hidden from users>",							//26
+					"[+20] Strength <during the [Third Age]> <hidden from users>",							//36
+					"[+30] Strength <during the [Fourth Age]> <hidden from users>",							//46
+
+					"Limited to [1] per Civilization <hidden from users>", 
+					"Instantly consumes [20] [Valor]", 
+
+					"Cannot be purchased <hidden from users>",
+					"Never appears as a Barbarian unit <hidden from users>", 
+					"Unbuildable <hidden from users>","[+15]% Strength bonus for [Military] units within [2] tiles",
+					],
+	},
+	{
+		"name": "Éowyn",
+		"unitType": "Mounted",
+		"uniqueTo": "Rohan",
+		"movement": 4,
+		"strength": 14,
+		"promotions": ["Hero"],
+		"uniques": ["Comment [Strength scales with era\n\nAbilities List:]",
+					//Abilities
+					"Comment [[Shieldmaiden]: Grant . Cost: 100 [Honor]]", 
+					"Comment [[White Lady of Rohan]: +15% Strength for all [Friendly] units, stacks with Great General. Cost: 150 [Honor]]",
+					"Comment [[Lady of Ithilien]: Grant Golden Age or turn to King Éomer after Theoden's death?. Cooldown: 3 turns.]",
+					
+					//Strength scaling
+					"[+8] Strength <during the [Second Age]> <hidden from users>",							//22
+					"[+14] Strength <during the [Third Age]> <hidden from users>",							//28
+					"[+24] Strength <during the [Fourth Age]> <hidden from users>",							//38
+
+					"Limited to [1] per Civilization <hidden from users>", 
+					"Instantly consumes [10] [Valor]", 
+
+					"Cannot be purchased <hidden from users>",
+					"Never appears as a Barbarian unit <hidden from users>", 
+					"Unbuildable <hidden from users>",
+					"[+15]% Strength bonus for [Military] units within [2] tiles",
+					"[300]% Strength <vs [{Witch-King}] units>"
+					],
 	},
 	//Gondor
 	{
