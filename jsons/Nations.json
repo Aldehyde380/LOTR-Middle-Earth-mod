@@ -51,7 +51,6 @@
 					//General stuff
 					"Gain a free [Rings] [in capital]",
 					"Gain a free [Good] [in capital]",
-					"Gain a free [Shards of Andúril] [in capital]",
 					"Starts with [Animal Husbandry]",
 					"[+1] Movement <for [Mounted] units>",
 					"[+100]% [Horses] resource production",
@@ -108,6 +107,7 @@
 					
 					"Gain a free [Rings] [in capital]",
 					"Gain a free [Good] [in capital]",
+					"Gain a free [Shards of Andúril] [in capital]",
 					"[-25]% construction time for [All] improvements",
 					"Free [Worker] appears <upon discovering [Pottery] technology>"
 					],
