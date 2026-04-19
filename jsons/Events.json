@@ -1,1 +1,20 @@
-
+	//Gondor
+	{
+		"name": "Riddle of Strider",
+		"text": "We have ushered into a new age, the Unholy Ritual must be performed to appease to the dead gods!",
+		"presentation": "Alert",	//None, Alert, Floating
+		"choices": [
+			{
+				"text": "From the ashes a fire shall be woken\nA light from the shadow shall spring\nRenewed shall be blade that was broken\nThe crownless again shall be king",
+				"uniques": [
+						"Only available <when above [29] [Honor]> <upon entering a war with [Evil] Civilizations> <after discovering [Iron Working]> <hidden from users>",
+						
+						"Comment [[Strider] upgrades for free including special upgrades into [Aragorn]]",
+						"Comment [[Aragorn] gains free [Andúril] promotion]",
+						
+						//backend
+						"[Strider] upgrades for free including special upgrades <hidden from users>",
+						"Consumes [Shards of Narsil]",
+						"[Strider] heals [100] HP", 
+				]
+			},
