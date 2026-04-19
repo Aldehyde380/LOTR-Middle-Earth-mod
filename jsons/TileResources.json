@@ -96,6 +96,26 @@
 			"Will not be displayed in Civilopedia"
 		]
 	},
+	{
+		"name": "Shards of Anduril",	
+		"resourceType": "Bonus",
+		"uniques": [
+			"Not shown on world screen <for [non-[Gondor]] Civilizations>", "Doesn't generate naturally",
+			"Cannot be traded", 
+			"Excluded from map editor", 
+			"Will not be displayed in Civilopedia"
+		]
+	},
+	{
+		"name": "Anduril",	
+		"resourceType": "Bonus",
+		"uniques": [
+			"Not shown on world screen <for [non-[Gondor]] Civilizations>", "Doesn't generate naturally",
+			"Cannot be traded", 
+			"Excluded from map editor", 
+			"Will not be displayed in Civilopedia"
+		]
+	},
 		
 	// Bonus resources
 	{
