@@ -147,8 +147,8 @@
 		"promotions": ["Hero"],
 		"uniques": ["Comment [Strength scales with era\n\nAbilities List:]",
 					//Abilities
-					"Comment [[Indomitable]: Gain Immunity from all negative statuses. Cost: 100 [Honor]]", 
-					"Comment [[Forth Eorlingas!]: +15% Strength for all [Friendly] units, stacks with Great General. Cost: 150 [Honor]]",
+					"Comment [[Indomitable]: Gain Immunity from all negative statuses. Cost: 100 [Valor]]", 
+					"Comment [[Forth Eorlingas!]: +15% Strength for all [Friendly] units, stacks with Great General. Cost: 150 [Valor]]",
 					"Comment [[Dismount]: Dismount to become [Sword] unit. Cooldown: 3 turns.]",
 					"Comment [[Snowmane]: Mount Snowmane to become a [Mounted] unit. Cooldown: 3 turns.]",	
 					
@@ -173,8 +173,8 @@
 		"promotions": ["Hero"],
 		"uniques": ["Comment [Strength scales with era\n\nAbilities List:]",
 					//Abilities
-					"Comment [[Éored]: Give [Éored] promotion to friendly units. Cost: 100 [Honor]]", 
-					"Comment [[Death!]: +15% Strength for all [Friendly] units, stacks with Great General. Cost: 150 [Honor]]",
+					"Comment [[Éored]: Give [Éored] promotion to friendly units. Cost: 100 [Valor]]", 
+					"Comment [[Death!]: +15% Strength for all [Friendly] units, stacks with Great General. Cost: 150 [Valor]]",
 					"Comment [[Éomer Éadig]: Grant Golden Age or turn to King Éomer after Theoden's death?. Cooldown: 3 turns.]",
 					
 					//Strength scaling
@@ -220,22 +220,61 @@
 	},
 	//Gondor
 	{
-		"name": "Faramir",
-		"unitType": "Ranged",
+		"name": "Strider",
+		"unitType": "Melee",
 		"uniqueTo": "Gondor",
 		"movement": 2,
-		"strength": 18,
-		"rangedStrength": 15,
-		"range": 2,
-		"promotions": ["Hero"],
-		"uniques": ["Unbuildable", "Ignores terrain cost"],
+		"strength": 12,
+		"upgradesTo": "Aragorn"
+		"promotions": ["Hero","Survivalist"],
+		"uniques": ["Comment [Strength scales with era\n\nAbilities List:]",
+					//Abilities
+					"Comment [[Ranger of the North]: [+1] Movement, [+1] Sight, [Surivalist]]", 
+					"Comment [[Chieftain of the Dúnedain]: ???]",
+					
+					"Limited to [1] per Civilization <hidden from users>", 
+					"Ignores terrain cost", 
+					"[+1] Movement", "[+1] Sight", "No damage penalty for wounded units", 
+					"Can move immediately once bought", "Can move after attacking", 
+					"Unable to pillage tiles", "Shown while unbuildable", 
+					"Cannot be purchased <hidden from users>",
+					"Never appears as a Barbarian unit <hidden from users>", 
+					"Unbuildable <hidden from users>","[+15]% Strength bonus for [Military] units within [2] tiles",
+		],
 	},
 	{
 		"name": "Aragorn",
 		"unitType": "Melee",
 		"uniqueTo": "Gondor",
 		"movement": 2,
-		"strength": 18,
+		"strength": 28,
+		"requiredResource": "Andúril",
+		"upgradesTo": "King Elessar"
+		"promotions": ["Hero","Medic"],
+		"uniques": ["Comment [Strength scales with era\n\nAbilities List:]",
+					//Abilities
+					"Comment [[Hands of the King]: ???", 
+					"Comment [[Chieftain of the Dúnedain]: ???]",
+					"Comment [[Brego]: Withdraws before melee combat for 1 turn. Cost: 30 [Honor]]",	
+					
+
+					"Limited to [1] per Civilization <hidden from users>", 
+					"Ignores terrain cost", 
+					"[+1] Movement", "[+1] Sight", 
+					"Cannot be purchased <hidden from users>",
+					"Never appears as a Barbarian unit <hidden from users>", 
+					"Unbuildable <hidden from users>","[+15]% Strength bonus for [Military] units within [2] tiles",
+					"Ignores terrain cost", 
+					"No damamge penalty for wounded units", "Unable to pillage tiles", "Shown while unbuildable", 				
+					"Can move immediately once bought", "Can move after attacking", 
+					],
+	},
+	{
+		"name": "King Elessar",
+		"unitType": "Melee",
+		"uniqueTo": "Gondor",
+		"movement": 2,
+		"strength": 35,
 		"promotions": ["Hero","Medic"],
 		"uniques": [
 			"Unbuildable", 
@@ -246,6 +285,17 @@
 			"[+25]% Strength <starting from the [Fourth Age]>",
 			"[+1] Movement <starting from the [Fourth Age]>",
 		],
+	},
+	{
+		"name": "Faramir",
+		"unitType": "Ranged",
+		"uniqueTo": "Gondor",
+		"movement": 2,
+		"strength": 18,
+		"rangedStrength": 15,
+		"range": 2,
+		"promotions": ["Hero"],
+		"uniques": ["Unbuildable", "Ignores terrain cost"],
 	},
 	{
 		"name": "Boromir",
