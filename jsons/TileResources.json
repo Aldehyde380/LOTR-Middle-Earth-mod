@@ -97,7 +97,7 @@
 		]
 	},
 	{
-		"name": "Shards of Anduril",	
+		"name": "Shards of Andúril",	
 		"resourceType": "Bonus",
 		"uniques": [
 			"Not shown on world screen <for [non-[Gondor]] Civilizations>", "Doesn't generate naturally",
@@ -107,7 +107,7 @@
 		]
 	},
 	{
-		"name": "Anduril",	
+		"name": "Andúril",	
 		"resourceType": "Bonus",
 		"uniques": [
 			"Not shown on world screen <for [non-[Gondor]] Civilizations>", "Doesn't generate naturally",
