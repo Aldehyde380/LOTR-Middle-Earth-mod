@@ -1,0 +1,21 @@
+	//Thanatos Theocracy
+	{
+		"name": "Unholy Ritual",
+		"text": "We have ushered into a new age, the Unholy Ritual must be performed to appease to the dead gods!",
+		"presentation": "Alert",	//None, Alert, Floating
+		"choices": [
+			{
+				"text": "Riddle of Strider, "From the ashes a fire shall be woken\nA light from the shadow shall spring\nRenewed shall be blade that was broken\nThe crownless again shall be king",
+				"uniques": [
+						"Only available <when above [29] [Honor]> <upon entering a war with [Evil] Civilizations> <after discovering [Iron Working]> <hidden from users>",
+						
+						"Comment [+50% [Science] for 10 turns. Cost 25 [Soul].]",
+						"Comment [+1 [Science] in all cities for every Forbidden Knowledge casted]",
+						
+						//backend
+						"[+25]% [Science] <for [10] turns> <hidden from users>",
+						"Consumes [Shards of Narsil]",
+						"Instantly gain [-25] [Soul] <hidden from users>",
+						
+				]
+			},
