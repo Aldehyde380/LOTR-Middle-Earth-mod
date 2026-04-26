@@ -32,21 +32,21 @@
 		"uniqueName": "Muster the Rohirrim",
 		"uniqueText": "Starts with Animal Husbandry. +1 Movement for all Mounted units, double quantity of Horses and Horses provide +1 Food."
 		"uniques": ["Comment [Gain 25 [Faith] and 1 [Valor] upon losing a unit in battle]",
-					"Comment [Gain 1 [Valor] upon defeating a non-[Barbarian] unit]",
-					"Comment [Gain 10 [Valor] upon entering new era]",
-					"Comment [Consume [Valor] to summon heroic units of Rohan]",
+					"Comment [Gain 1 [Faith] upon defeating a non-[Barbarian] unit]",
+					"Comment [Gain 10 [Faith] upon entering new era]",
+					"Comment [Consume [Faith] to summon heroic units of Rohan]",
 
 					//Valor
-					"Instantly gain [10] [Valor] <upon entering a new era> <hidden from users>",
-					"Instantly gain [1] [Valor] <upon defeating a [{First Age} {non-[Barbarian]}] unit> <hidden from users>",
-					"Instantly gain [3] [Valor] <upon defeating a [{Second Age} {non-[Barbarian]}] unit> <hidden from users>",
-					"Instantly gain [8] [Valor] <upon defeating a [{Third Age} {non-[Barbarian]}] unit> <hidden from users>",
-					"Instantly gain [15] [Valor] <upon defeating a [{Fourth Age} {non-[Barbarian]}] unit> <hidden from users>",
+					"Instantly gain [10] [Faith] <upon entering a new era> <hidden from users>",
+					"Instantly gain [1] [Faith] <upon defeating a [{First Age} {non-[Barbarian]}] unit> <hidden from users>",
+					"Instantly gain [3] [Faith] <upon defeating a [{Second Age} {non-[Barbarian]}] unit> <hidden from users>",
+					"Instantly gain [8] [Faith] <upon defeating a [{Third Age} {non-[Barbarian]}] unit> <hidden from users>",
+					"Instantly gain [15] [Faith] <upon defeating a [{Fourth Age} {non-[Barbarian]}] unit> <hidden from users>",
 
 					//Hero Summon
-					"May buy [Theoden] units for [0] [Faith] [in all cities] <when above [29] [Valor]> <hidden from users>",
-					"May buy [Éomer] units for [0] [Faith] [in all cities] <when above [14] [Valor]> <hidden from users>",
-					"May buy [Éowyn] units for [0] [Faith] [in all cities] <when above [9] [Valor]> <hidden from users>",
+					"May buy [Theoden] units for [30] [Faith] [in all cities] <when above [29] [Valor]> <hidden from users>",
+					"May buy [Éomer] units for [20] [Faith] [in all cities] <when above [14] [Valor]> <hidden from users>",
+					"May buy [Éowyn] units for [10] [Faith] [in all cities] <when above [9] [Valor]> <hidden from users>",
 
 					//General stuff
 					"Gain a free [Rings] [in capital]",
