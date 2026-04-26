@@ -375,7 +375,7 @@
 		"name": "Summon Theoden",
 		"isWonder": true,
 		"cost": 0,
-		"uniques": ["Hero Spawner","Consumes [10] [Faith]", "[-15]% Production when constructing [Hero Spawner] wonders [in all cities]","[-2 Culture] <after adopting [Constitution]>","Free [Theoden] appears", "Unsellable",
+		"uniques": ["Hero Spawner","Can be purchased for [10] [Faith] [in all cities]", "[-15]% Production when constructing [Hero Spawner] wonders [in all cities]","[-2 Culture] <after adopting [Constitution]>","Free [Theoden] appears", "Unsellable",
 				"Only available <if [Good] is constructed>"],
 	},
 	{
