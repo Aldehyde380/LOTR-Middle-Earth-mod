@@ -116,7 +116,6 @@
 		"uniqueTo": "Rohan",
 		"movement": 4,
 		"strength": 18,
-		"requiredResource": "Valor",
 		"promotions": ["Hero", "Good"],
 		"uniques": ["Comment [Strength scales with era\n\nAbilities List:]",
 					//Abilities
@@ -131,7 +130,6 @@
 					"[+30] Strength <during the [Fourth Age]> <hidden from users>",							//48
 
 					"Limited to [1] per Civilization <hidden from users>", 
-					"Instantly consumes [30] [Valor]", 
 					"Can transform to [Theoden (Sword)]",
 					"Cannot be purchased <hidden from users>",
 					"Never appears as a Barbarian unit <hidden from users>", 
