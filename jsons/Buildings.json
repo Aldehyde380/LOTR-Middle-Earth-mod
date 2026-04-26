@@ -374,6 +374,7 @@
 	{
 		"name": "Summon Theoden",
 		"isWonder": true,
+		"uniqueTo": "Rohan",
 		"uniques": ["Hero Spawner", "[-15]% Production when constructing [Hero Spawner] wonders [in all cities]","[-2 Culture] <after adopting [Constitution]>","Free [Theoden] appears", "Unsellable",
 				"Only available <if [Good] is constructed>", "Unbuildable", "Shown while unbuildable"],
 	},
