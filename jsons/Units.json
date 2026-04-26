@@ -129,34 +129,7 @@
 					"[+20] Strength <during the [Third Age]> <hidden from users>",							//38
 					"[+30] Strength <during the [Fourth Age]> <hidden from users>",							//48
 
-					"Limited to [1] per Civilization <hidden from users>", 
-					"Can transform to [Theoden (Sword)]",
-					"Cannot be purchased <hidden from users>",
-					"Never appears as a Barbarian unit <hidden from users>", 
-					"Unbuildable <hidden from users>","[+15]% Strength bonus for [Military] units within [2] tiles",
-					],
-	},
-	{
-		"name": "Theoden (Sword)",
-		"unitType": "Sword",
-		"uniqueTo": "Rohan",
-		"movement": 2,
-		"strength": 10,
-		"promotions": ["Hero", "Good"],
-		"uniques": ["Comment [Strength scales with era\n\nAbilities List:]",
-					//Abilities
-					"Comment [[Indomitable]: Gain Immunity from all negative statuses. Cost: 100 [Valor]]", 
-					"Comment [[Forth Eorlingas!]: +15% Strength for all [Friendly] units, stacks with Great General. Cost: 150 [Valor]]",
-					"Comment [[Dismount]: Dismount to become [Sword] unit. Cooldown: 3 turns.]",
-					"Comment [[Snowmane]: Mount Snowmane to become a [Mounted] unit. Cooldown: 3 turns.]",	
-					
-					//Strength scaling
-					"[+15] Strength <during the [Second Age]> <hidden from users>",							//25
-					"[+20] Strength <during the [Third Age]> <hidden from users>",							//30
-					"[+30] Strength <during the [Fourth Age]> <hidden from users>",							//40
-
-					"Limited to [1] per Civilization <hidden from users>", 
-					"Can transform to [Theoden]",
+					"Limited to [1] per Civilization <hidden from users>", w
 					"Cannot be purchased <hidden from users>",
 					"Never appears as a Barbarian unit <hidden from users>", 
 					"Unbuildable <hidden from users>","[+15]% Strength bonus for [Military] units within [2] tiles",
