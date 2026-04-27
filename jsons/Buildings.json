@@ -502,6 +502,14 @@
 		"cost": 200,
 		"uniques": ["Hero Spawner","[-20]% Production when constructing [Hero Spawner] wonders [in all cities]","[-2 Culture] <after adopting [Constitution]>","Free [Thorin Oakenshield] appears", "Unsellable", 
 				"Only available <if [Good] is constructed>"],
+	},	
+	{
+		"name": "Summon Durin",
+		"isWonder": true,
+		"uniqueTo": "Dwarves",
+		"cost": 200,
+		"uniques": ["Hero Spawner","[-20]% Production when constructing [Hero Spawner] wonders [in all cities]","[-2 Culture] <after adopting [Constitution]>","Free [Durin] appears", "Unsellable", 
+				"Only available <if [Good] is constructed>"],
 	},
 	{
 		"name": "Summon Dain II Ironfoot",
