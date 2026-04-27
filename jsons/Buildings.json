@@ -352,15 +352,10 @@
 	},
 		// Heroes units
 	// Good: 
-	//Theodred, Hammond, Gamling, Grimbold, Arwen, Thranduil, 
-	//Elendil, Treebeard, Celeborn, Radagast, Frodo, Samwise Gamgee, Merry, Pippin, Bilbo, Beorn, Alatar, Pallando, 
-	//Evil: 
-	//Gollum, Sauron, Khamul the Easterling, Morgoth, Durin's Bane, Ungoliant, Great Goblin, Bolg (Azog's son), Draugluin (1st werewolf), 
-	//Carcharoth (werewolf), Narag-Shazon (dragon), Tevildo (Lord of the Cat), Maeglin (Dark Elf), Gostir (Cold Drake), Othrod (Orc Lord) 
-	//Glaurung (dragon), Lorgan (human), Ancalagon (fire dragon), Thuringwethil (vampire), Lungorthin (balrog), Lhamthanc (serpent), 
-	//Evil nation units: 
-	//Barrow Wights (mordor), Bats of Dor-Guldur (mordor), Olog-hai (mordor), Siege-beasts (Mordor/Angmar), Eye of Sauron (building instead)
-	//Flies of mordor, 
+	//Theodred, Hammond, Gamling, Grimbold, 
+	//Elendil, Celeborn, Alatar, Pallando, 
+
+	//Rhosgobel
 	{
 		"name": "Summon Radagast",
 		"isWonder": true,
@@ -368,6 +363,23 @@
 		"uniques": ["Hero Spawner","Only available <with [SpecialIstari]>", "[-15]% Production when constructing [Hero Spawner] wonders [in all cities]","[-2 Culture] <after adopting [Constitution]>","Free [Radagast, the Brown] appears", "Unsellable", "Provides [1] [Special]", 
 				"Only available <if [Good] is constructed>"],
 	},
+	//Entwood
+	{
+		"name": "Summon Treebeard",
+		"isWonder": true,
+		"cost": 170,
+		"uniques": ["Hero Spawner","Only avilable <with [SpecialEnt]>", "[-15]% Production when constructing [Hero Spawner] wonders [in all cities]","[-2 Culture] <after adopting [Constitution]>","Free [Treebeard] appears", "Unsellable", 
+				"Only available <if [Good] is constructed>"],
+	},
+	//Beorn's Hall
+	{
+		"name": "Summon Beorn",
+		"isWonder": true,
+		"cost": 190,
+		"uniques": ["Hero Spawner","Only avilable <with [SpecialBeorn]>", "[-15]% Production when constructing [Hero Spawner] wonders [in all cities]","[-2 Culture] <after adopting [Constitution]>","Free [Beorn] appears", "Unsellable", 
+				"Only available <if [Good] is constructed>"],
+	},
+	//General
 	{
 		"name": "Summon Gandalf",
 		"isWonder": true,
@@ -375,6 +387,7 @@
 		"uniques": ["Hero Spawner","[-15]% Production when constructing [Hero Spawner] wonders [in all cities]","[-2 Culture] <after adopting [Constitution]>","Free [Gandalf, the Grey] appears", "Unsellable", "Provides [1] [Special]", 
 				"Only available <if [Good] is constructed>"],
 	},
+	//Rohan
 	{
 		"name": "Summon Eowyn",
 		"isWonder": true,
@@ -387,9 +400,26 @@
 		"name": "Summon Theoden",
 		"isWonder": true,
 		"uniqueTo": "Rohan",
-		"cost": 180,
+		"cost": 175,
 		"uniques": ["Hero Spawner", "[-15]% Production when constructing [Hero Spawner] wonders [in all cities]","[-2 Culture] <after adopting [Constitution]>","Free [Theoden] appears", "Unsellable",
 				"Only available <if [Good] is constructed>", "Unbuildable", "Shown while unbuildable"],
+	},
+	{
+		"name": "Summon Éomer",
+		"isWonder": true,
+		"uniqueTo": "Rohan",
+		"cost": 165,
+		"uniques": ["Hero Spawner", "[-15]% Production when constructing [Hero Spawner] wonders [in all cities]","[-2 Culture] <after adopting [Constitution]>","Free [Éomer] appears", "Unsellable",
+				"Only available <if [Good] is constructed>", "Unbuildable", "Shown while unbuildable"],
+	},
+	//Gondor
+	{
+		"name": "Summon Denethor",
+		"isWonder": true,
+		"uniqueTo": "Gondor",
+		"cost": 160,
+		"uniques": ["Hero Spawner","[-15]% Production when constructing [Hero Spawner] wonders [in all cities]","[-2 Culture] <after adopting [Constitution]>","Free [Denethor] appears", "Unsellable", 
+				"Only available <if [Good] is constructed>"],
 	},
 	{
 		"name": "Summon Faramir",
@@ -397,6 +427,31 @@
 		"uniqueTo": "Gondor",
 		"cost": 175,
 		"uniques": ["Hero Spawner","[-15]% Production when constructing [Hero Spawner] wonders [in all cities]","[-2 Culture] <after adopting [Constitution]>","Free [Faramir] appears", "Unsellable", 
+				"Only available <if [Good] is constructed>"],
+	},
+	{
+		"name": "Summon Boromir",
+		"isWonder": true,
+		"uniqueTo": "Gondor",
+		"cost": 180,
+		"uniques": ["Hero Spawner","[-15]% Production when constructing [Hero Spawner] wonders [in all cities]","[-2 Culture] <after adopting [Constitution]>","Free [Boromir] appears", "Unsellable", 
+				"Only available <if [Good] is constructed>"],
+	},
+	{
+		"name": "Summon Aragorn",
+		"isWonder": true,
+		"uniqueTo": "Gondor",
+		"cost": 185,
+		"uniques": ["Hero Spawner","[-15]% Production when constructing [Hero Spawner] wonders [in all cities]","[-2 Culture] <after adopting [Constitution]>","Free [Aragorn] appears", "Unsellable", 
+				"Only available <if [Good] is constructed>"],
+	},
+	//Noldor Elves
+	{
+		"name": "Summon Arwen",
+		"isWonder": true,
+		"uniqueTo": "Noldor Elves",
+		"cost": 220,
+		"uniques": ["Hero Spawner","[-25]% Production when constructing [Hero Spawner] wonders [in all cities]","[-2 Culture] <after adopting [Constitution]>","Free [Arwen] appears", "Unsellable", 
 				"Only available <if [Good] is constructed>"],
 	},
 	{
@@ -408,13 +463,30 @@
 				"Only available <if [Good] is constructed>"],
 	},
 	{
-		"name": "Summon Aragorn",
+		"name": "Summon Galadriel",
 		"isWonder": true,
-		"uniqueTo": "Gondor",
-		"cost": 185,
-		"uniques": ["Hero Spawner","[-15]% Production when constructing [Hero Spawner] wonders [in all cities]","[-2 Culture] <after adopting [Constitution]>","Free [Aragorn] appears", "Unsellable", 
+		"uniqueTo": "Noldor Elves",
+		"cost": 220,
+		"uniques": ["Hero Spawner","[-25]% Production when constructing [Hero Spawner] wonders [in all cities]","[-2 Culture] <after adopting [Constitution]>","Free [Galadriel] appears", "Unsellable", 
 				"Only available <if [Good] is constructed>"],
 	},
+	{
+		"name": "Summon Fingolfin",
+		"isWonder": true,
+		"uniqueTo": "Noldor Elves",
+		"cost": 250,
+		"uniques": ["Hero Spawner","[-25]% Production when constructing [Hero Spawner] wonders [in all cities]","[-2 Culture] <after adopting [Constitution]>","Free [Fingolfin] appears", "Unsellable", 
+				"Only available <if [Good] is constructed>"],
+	},
+	{
+		"name": "Summon Feanor",
+		"isWonder": true,
+		"uniqueTo": "Noldor Elves",
+		"cost": 200,
+		"uniques": ["Hero Spawner","[-25]% Production when constructing [Hero Spawner] wonders [in all cities]","[-2 Culture] <after adopting [Constitution]>","Free [Feanor] appears", "Unsellable", 
+				"Only available <if [Good] is constructed>"],
+	},
+	//Dwarves
 	{
 		"name": "Summon Gimli",
 		"isWonder": true,
@@ -424,13 +496,23 @@
 				"Only available <if [Good] is constructed>"],
 	},
 	{
-		"name": "Summon Galadriel",
+		"name": "Summon Thorin Oakenshield",
 		"isWonder": true,
-		"uniqueTo": "Noldor Elves",
-		"cost": 220,
-		"uniques": ["Hero Spawner","[-25]% Production when constructing [Hero Spawner] wonders [in all cities]","[-2 Culture] <after adopting [Constitution]>","Free [Galadriel] appears", "Unsellable", 
+		"uniqueTo": "Dwarves",
+		"cost": 200,
+		"uniques": ["Hero Spawner","[-20]% Production when constructing [Hero Spawner] wonders [in all cities]","[-2 Culture] <after adopting [Constitution]>","Free [Thorin Oakenshield] appears", "Unsellable", 
 				"Only available <if [Good] is constructed>"],
 	},
+	{
+		"name": "Summon Dain II Ironfoot",
+		"isWonder": true,
+		"uniqueTo": "Dwarves",
+		"cost": 200,
+		"uniques": ["Hero Spawner","[-20]% Production when constructing [Hero Spawner] wonders [in all cities]","[-2 Culture] <after adopting [Constitution]>","Free [Dain II Irontfoot] appears", "Unsellable", 
+				"Only available <if [Good] is constructed>"],
+	},	
+
+	//Sindar Elves
 	{
 		"name": "Summon Legolas",
 		"isWonder": true,
@@ -440,34 +522,121 @@
 				"Only available <if [Good] is constructed>"],
 	},
 	{
-		"name": "Summon Wormtongue",
+		"name": "Summon Thranduil",
 		"isWonder": true,
-		"uniqueTo": "Isengard",
+		"uniqueTo": "Sindar Elves",
+		"cost": 200,
+		"uniques": ["Hero Spawner","[-25]% Production when constructing [Hero Spawner] wonders [in all cities]","[-2 Culture] <after adopting [Constitution]>","Free [Thranduil] appears", "Unsellable", 
+				"Only available <if [Good] is constructed>"],
+	},
+	{
+		"name": "Summon Beleg Strongbow",
+		"isWonder": true,
+		"uniqueTo": "Sindar Elves",
+		"cost": 250,
+		"uniques": ["Hero Spawner","[-25]% Production when constructing [Hero Spawner] wonders [in all cities]","[-2 Culture] <after adopting [Constitution]>","Free [Beleg Strongbow] appears", "Unsellable", 
+				"Only available <if [Good] is constructed>"],
+	},
+	//Shire
+	{
+		"name": "Summon Bilbo",
+		"isWonder": true,
+		"uniqueTo": "Shire",
+		"cost": 160,
+		"uniques": ["Hero Spawner","[-15]% Production when constructing [Hero Spawner] wonders [in all cities]","[-2 Culture] <after adopting [Constitution]>","Free [Bilbo] appears", "Unsellable", 
+				"Only available <if [Good] is constructed>"],
+	},
+	{
+		"name": "Summon Frodo",
+		"isWonder": true,
+		"uniqueTo": "Shire",
+		"cost": 160,
+		"uniques": ["Hero Spawner","[-15]% Production when constructing [Hero Spawner] wonders [in all cities]","[-2 Culture] <after adopting [Constitution]>","Free [Frodo] appears", "Unsellable", 
+				"Only available <if [Good] is constructed>"],
+	},
+	{
+		"name": "Summon Samwise",
+		"isWonder": true,
+		"uniqueTo": "Shire",
+		"cost": 160,
+		"uniques": ["Hero Spawner","[-15]% Production when constructing [Hero Spawner] wonders [in all cities]","[-2 Culture] <after adopting [Constitution]>","Free [Samwise] appears", "Unsellable", 
+				"Only available <if [Good] is constructed>"],
+	},
+	{
+		"name": "Summon Merry",
+		"isWonder": true,
+		"uniqueTo": "Shire",
+		"cost": 160,
+		"uniques": ["Hero Spawner","[-15]% Production when constructing [Hero Spawner] wonders [in all cities]","[-2 Culture] <after adopting [Constitution]>","Free [Merry] appears", "Unsellable", 
+				"Only available <if [Good] is constructed>"],
+	},
+	{
+		"name": "Summon Pippin",
+		"isWonder": true,
+		"uniqueTo": "Shire",
+		"cost": 160,
+		"uniques": ["Hero Spawner","[-15]% Production when constructing [Hero Spawner] wonders [in all cities]","[-2 Culture] <after adopting [Constitution]>","Free [Pippin] appears", "Unsellable", 
+				"Only available <if [Good] is constructed>"],
+	},
+	//Arnor
+	{
+		"name": "Summon Elendil",
+		"isWonder": true,
+		"uniqueTo": "Arnor",
+		"cost": 180,
+		"uniques": ["Hero Spawner","[-15]% Production when constructing [Hero Spawner] wonders [in all cities]","[-2 Culture] <after adopting [Constitution]>","Free [Elendil] appears", "Unsellable", 
+				"Only available <if [Good] is constructed>"],
+	},
+	{
+		"name": "Summon Isildur",
+		"isWonder": true,
+		"uniqueTo": "Arnor",
+		"cost": 175,
+		"uniques": ["Hero Spawner","[-15]% Production when constructing [Hero Spawner] wonders [in all cities]","[-2 Culture] <after adopting [Constitution]>","Free [Isildur] appears", "Unsellable", 
+				"Only available <if [Good] is constructed>"],
+	},
+	{
+		"name": "Summon Malbeth the Seer",
+		"isWonder": true,
+		"uniqueTo": "Arnor",
+		"cost": 160,
+		"uniques": ["Hero Spawner","[-15]% Production when constructing [Hero Spawner] wonders [in all cities]","[-2 Culture] <after adopting [Constitution]>","Free [Malbeth the Seer] appears", "Unsellable", 
+				"Only available <if [Good] is constructed>"],
+	},
+	//Evil: 
+	//Morgoth, Draugluin (1st werewolf), 
+	//Carcharoth (werewolf), Narag-Shazon (dragon), Tevildo (Lord of the Cat), Maeglin (Dark Elf), Gostir (Cold Drake), Othrod (Orc Lord) 
+	//Glaurung (dragon), Lorgan (human), Ancalagon (fire dragon), Thuringwethil (vampire), Lungorthin (balrog), Lhamthanc (serpent), 
+	//Evil nation units: 
+	//Barrow Wights (mordor), Bats of Dor-Guldur (mordor), Olog-hai (mordor), Siege-beasts (Mordor/Angmar), Eye of Sauron (building instead)
+	//Flies of mordor, 
+    //General Evil
+	{
+		"name": "Summon Gollum",
+		"isWonder": true,
 		"cost": 140,
-		"uniques": ["Hero Spawner","[-10]% Production when constructing [Hero Spawner] wonders [in all cities]","[-2 Culture] <after adopting [Constitution]>","Free [Wormtongue] appears", "Unsellable", 
+		"uniques": ["Hero Spawner","[-15]% Production when constructing [Hero Spawner] wonders [in all cities]","[-2 Culture] <after adopting [Constitution]>","Free [Gollum] appears", "Unsellable", 
 				"Only available <if [Evil] is constructed>"],
 	},
 	{
-		"name": "Summon Lieutenant Gothmog",
+		"name": "Summon Morgoth",
 		"isWonder": true,
-		"uniqueTo": "Mordor ",
-		"cost": 150,
-		"uniques": ["Hero Spawner","[-10]% Production when constructing [Hero Spawner] wonders [in all cities]","[-2 Culture] <after adopting [Constitution]>","Free [Lieutenant Gothmog] appears", "Unsellable", 
+		"cost": 280,
+		"uniques": ["Hero Spawner","[-15]% Production when constructing [Hero Spawner] wonders [in all cities]","[-2 Culture] <after adopting [Constitution]>","Free [Morgoth] appears", "Unsellable", 
 				"Only available <if [Evil] is constructed>"],
 	},
-        {
+	{
 		"name": "Summon Lord Gothmog",
 		"isWonder": true,
-		"cost": 190,
+		"cost": 220,
 		"uniques": ["Hero Spawner","[-15]% Production when constructing [Hero Spawner] wonders [in all cities]","[-2 Culture] <after adopting [Constitution]>","Free [Lord Gothmog] appears", "Unsellable", 
 				"Only available <if [Evil] is constructed>"],
 	},
 	{
-		"name": "Summon Azog",
+		"name": "Summon Durin's Bane",
 		"isWonder": true,
-		"uniqueTo": "Goblins",
 		"cost": 190,
-		"uniques": ["Hero Spawner","[-15]% Production when constructing [Hero Spawner] wonders [in all cities]","[-2 Culture] <after adopting [Constitution]>","Free [Azog] appears", "Unsellable", 
+		"uniques": ["Hero Spawner","[-15]% Production when constructing [Hero Spawner] wonders [in all cities]","[-2 Culture] <after adopting [Constitution]>","Free [Durin's Bane] appears", "Unsellable", 
 				"Only available <if [Evil] is constructed>"],
 	},
 	{
@@ -476,6 +645,15 @@
 		"cost": 200,
 		"uniques": ["Hero Spawner","[-15]% Production when constructing [Hero Spawner] wonders [in all cities]","[-2 Culture] <after adopting [Constitution]>","Free [Smaug] appears", "Unsellable", 
 		            "Only available <if [Evil] is constructed>"],
+	},
+	//Isengard
+	{
+		"name": "Summon Wormtongue",
+		"isWonder": true,
+		"uniqueTo": "Isengard",
+		"cost": 140,
+		"uniques": ["Hero Spawner","[-10]% Production when constructing [Hero Spawner] wonders [in all cities]","[-2 Culture] <after adopting [Constitution]>","Free [Wormtongue] appears", "Unsellable", 
+				"Only available <if [Evil] is constructed>"],
 	},
 	{
 		"name": "Summon Saruman",
@@ -486,12 +664,103 @@
 				"Only available <if [Evil] is constructed>"],
 	},
 	{
+		"name": "Summon Lurtz",
+		"isWonder": true,
+		"uniqueTo": "Isengard",
+		"cost": 170,
+		"uniques": ["Hero Spawner","[-20]% Production when constructing [Hero Spawner] wonders [in all cities]","[-2 Culture] <after adopting [Constitution]>","Free [Lurtz] appears", "Unsellable", 
+				"Only available <if [Evil] is constructed>"],
+	},
+	{
+		"name": "Summon Ugluk",
+		"isWonder": true,
+		"uniqueTo": "Isengard",
+		"cost": 170,
+		"uniques": ["Hero Spawner","[-20]% Production when constructing [Hero Spawner] wonders [in all cities]","[-2 Culture] <after adopting [Constitution]>","Free [Ugluk] appears", "Unsellable", 
+				"Only available <if [Evil] is constructed>"],
+	},
+	//Mordor
+	{
+		"name": "Summon Lieutenant Gothmog",
+		"isWonder": true,
+		"uniqueTo": "Mordor ",
+		"cost": 150,
+		"uniques": ["Hero Spawner","[-10]% Production when constructing [Hero Spawner] wonders [in all cities]","[-2 Culture] <after adopting [Constitution]>","Free [Lieutenant Gothmog] appears", "Unsellable", 
+				"Only available <if [Evil] is constructed>"],
+	},
+	{
+		"name": "Summon Mouth of Sauron",
+		"isWonder": true,
+		"uniqueTo": "Mordor",
+		"cost": 150,
+		"uniques": ["Hero Spawner","[-25]% Production when constructing [Hero Spawner] wonders [in all cities]","[-2 Culture] <after adopting [Constitution]>","Free [Mouth of Sauron] appears", "Unsellable", 
+				"Only available <if [Evil] is constructed>"],
+	},
+	{
+		"name": "Summon Sauron",
+		"isWonder": true,
+		"uniqueTo": "Mordor",
+		"cost": 250,
+		"uniques": ["Hero Spawner","[-25]% Production when constructing [Hero Spawner] wonders [in all cities]","[-2 Culture] <after adopting [Constitution]>","Free [Sauron] appears", "Unsellable", 
+				"Only available <if [Evil] is constructed>"],
+	},
+	{
+		"name": "Summon Thuringwethil",
+		"isWonder": true,
+		"uniqueTo": "Mordor",
+		"cost": 170,
+		"uniques": ["Hero Spawner","[-25]% Production when constructing [Hero Spawner] wonders [in all cities]","[-2 Culture] <after adopting [Constitution]>","Free [Thuringwethil] appears", "Unsellable", 
+				"Only available <if [Evil] is constructed>"],
+	},
+	{
+		"name": "Summon Draugluin",
+		"isWonder": true,
+		"uniqueTo": "Mordor",
+		"cost": 185,
+		"uniques": ["Hero Spawner","[-25]% Production when constructing [Hero Spawner] wonders [in all cities]","[-2 Culture] <after adopting [Constitution]>","Free [Draugluin] appears", "Unsellable", 
+				"Only available <if [Evil] is constructed>"],
+	},
+	//Goblins
+	{
+		"name": "Summon Azog",
+		"isWonder": true,
+		"uniqueTo": "Goblins",
+		"cost": 190,
+		"uniques": ["Hero Spawner","[-15]% Production when constructing [Hero Spawner] wonders [in all cities]","[-2 Culture] <after adopting [Constitution]>","Free [Azog] appears", "Unsellable", 
+				"Only available <if [Evil] is constructed>"],
+	},
+	{
+		"name": "Summon Bolg",
+		"isWonder": true,
+		"uniqueTo": "Goblins",
+		"cost": 180,
+		"uniques": ["Hero Spawner","[-15]% Production when constructing [Hero Spawner] wonders [in all cities]","[-2 Culture] <after adopting [Constitution]>","Free [Bolg] appears", "Unsellable", 
+				"Only available <if [Evil] is constructed>"],
+	},
+	{
+		"name": "Summon Great Goblin",
+		"isWonder": true,
+		"uniqueTo": "Goblins",
+		"cost": 170,
+		"uniques": ["Hero Spawner","[-15]% Production when constructing [Hero Spawner] wonders [in all cities]","[-2 Culture] <after adopting [Constitution]>","Free [Great Goblin] appears", "Unsellable", 
+				"Only available <if [Evil] is constructed>"],
+	},
+	//Shelob's Lair
+	{
 		"name": "Summon Shelob",
 		"isWonder": true,
 		"cost": 220,
 		"uniques": ["Hero Spawner","[-20]% Production when constructing [Hero Spawner] wonders [in all cities]","[-2 Culture] <after adopting [Constitution]>","Free [Shelob] appears", "Unsellable", 
 				"Only available <if [Evil] is constructed>"],
 	},
+	{
+		"name": "Summon Ungoliant",
+		"isWonder": true,
+		"cost": 250,
+		"uniques": ["Hero Spawner","[-20]% Production when constructing [Hero Spawner] wonders [in all cities]","[-2 Culture] <after adopting [Constitution]>","Free [Ungoliant] appears", "Unsellable", 
+				"Only available <if [Evil] is constructed>"],
+	},
+	//Angmar
 	{
 		"name": "Summon Witch-king",
 		"isWonder": true,
@@ -501,11 +770,11 @@
 				"Only available <if [Evil] is constructed>"],
 	},
 	{
-		"name": "Summon Mouth of Sauron",
+		"name": "Summon Khamul",
 		"isWonder": true,
-		"uniqueTo": "Mordor",
+		"uniqueTo": "Angmar",
 		"cost": 250,
-		"uniques": ["Hero Spawner","[-25]% Production when constructing [Hero Spawner] wonders [in all cities]","[-2 Culture] <after adopting [Constitution]>","Free [Mouth of Sauron] appears", "Unsellable", 
+		"uniques": ["Hero Spawner","[-25]% Production when constructing [Hero Spawner] wonders [in all cities]","[-2 Culture] <after adopting [Constitution]>","Free [Khamul] appears", "Unsellable", 
 				"Only available <if [Evil] is constructed>"],
 	},
 	
