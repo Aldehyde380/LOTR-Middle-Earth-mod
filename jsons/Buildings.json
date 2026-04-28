@@ -547,7 +547,7 @@
 	},
 	//Shire
 	{
-		"name": "Summon Bilbo",
+		"name": "Summon Peregrin Took",
 		"isWonder": true,
 		"uniqueTo": "Shire",
 		"cost": 160,
