@@ -191,36 +191,11 @@
 	},
 	//Gondor
 	{
-		"name": "Strider",
-		"unitType": "Melee",
-		"uniqueTo": "Gondor",
-		"movement": 2,
-		"strength": 12,
-		"upgradesTo": "Aragorn"
-		"promotions": ["Hero", "Good", "Survivalist"],
-		"uniques": ["Comment [Strength scales with era\n\nAbilities List:]",
-					//Abilities
-					"Comment [[Ranger of the North]: [+1] Movement, [+1] Sight, [Surivalist]]", 
-					"Comment [[Chieftain of the Dúnedain]: ???]",
-					
-					"Limited to [1] per Civilization <hidden from users>", 
-					"Ignores terrain cost", 
-					"[+1] Movement", "[+1] Sight", "No damage penalty for wounded units", 
-					"Can move immediately once bought", "Can move after attacking", 
-					"Unable to pillage tiles", "Shown while unbuildable", 
-					"Cannot be purchased <hidden from users>",
-					"Never appears as a Barbarian unit <hidden from users>", 
-					"Unbuildable <hidden from users>","[+15]% Strength bonus for [Military] units within [2] tiles",
-		],
-	},
-	{
 		"name": "Aragorn",
 		"unitType": "Melee",
 		"uniqueTo": "Gondor",
 		"movement": 2,
-		"strength": 28,
-		"requiredResource": "Andúril",
-		"upgradesTo": "King Elessar"
+		"strength": 18,
 		"promotions": ["Hero","Good","Medic"],
 		"uniques": ["Comment [Strength scales with era\n\nAbilities List:]",
 					//Abilities
@@ -228,7 +203,6 @@
 					"Comment [[Chieftain of the Dúnedain]: ???]",
 					"Comment [[Brego]: Withdraws before melee combat for 1 turn. Cost: 30 [Honor]]",	
 					
-
 					"Limited to [1] per Civilization <hidden from users>", 
 					"Ignores terrain cost", 
 					"[+1] Movement", "[+1] Sight", 
@@ -239,23 +213,6 @@
 					"No damamge penalty for wounded units", "Unable to pillage tiles", "Shown while unbuildable", 				
 					"Can move immediately once bought", "Can move after attacking", 
 					],
-	},
-	{
-		"name": "King Elessar",
-		"unitType": "Melee",
-		"uniqueTo": "Gondor",
-		"movement": 2,
-		"strength": 35,
-		"promotions": ["Hero","Good","Medic"],
-		"uniques": [
-			"Unbuildable", 
-			"Ignores terrain cost", 
-			"[+25]% Strength <starting from the [Second Age]>",
-			"[+25]% Strength <starting from the [Third Age]>",
-			"[+1] Sight <starting from the [Third Age]>",
-			"[+25]% Strength <starting from the [Fourth Age]>",
-			"[+1] Movement <starting from the [Fourth Age]>",
-		],
 	},
 	{
 		"name": "Faramir",
