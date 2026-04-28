@@ -10,7 +10,7 @@
 		"name": "Animalia Active",
 		"uniques": ["Comment [Can choose to transform between [Bear Form], [Eagle Form], [Whale Form]. Cooldown: 10 turns.]",
 					//Animal Transformation 
-					"Can transform to [Bear Form] <for [0] movement>  <hidden from users>",
+					"Can transform to [Snow Lion Form] <for [0] movement>  <hidden from users>",
 					"Can transform to [Eagle Form] <for [0] movement> <hidden from users>",
 					"Can transform to [Whale Form] <for [0] movement>  <hidden from users>",
 					"[This Unit] gains the [Animalia Cooldown] status for [10] turn(s) <upon gaining the [Animalia Active] status> <hidden from users>",
