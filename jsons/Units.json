@@ -79,11 +79,27 @@
 	//Flies of mordor, 
 	{
 		"name": "Radagast, the Brown",
-		"unitType": "Melee",
-		"movement": 2,
-		"strength": 14,
-		"promotions": ["Hero"], 
-		"uniques": ["Consumes [1] [Special]", "Unbuildable"],
+		"unitType": "Ranged",
+		"movement": 3,
+		"strength": 13,
+		"rangedStrength": 15,
+		"range": 1,
+		"promotions": ["Hero", "Animalia"], 
+		"uniques": ["Consumes [1] [Special]", 
+					//Strength scaling
+					"[+4] rangedStrength <during the [Second Age]> <hidden from users>",		//19
+					"[+8] rangedStrength <during the [Third Age]> <hidden from users>",			//23
+					"[+12] rangedStrength <during the [Fourth Age]> <hidden from users>",		//27
+			
+					"[+5] Strength <during the [Second Age]> <hidden from users>",		//18
+					"[+10] Strength <during the [Third Age]> <hidden from users>",		//23
+					"[+15] Strength <during the [Fourth Age]> <hidden from users>",		//28
+				
+					"Limited to [1] per Civilization <hidden from users>", 
+					"Cannot be purchased <hidden from users>",
+					"Never appears as a Barbarian unit <hidden from users>", 
+					"Unbuildable <hidden from users>"
+					],
 
 	},
 	{
@@ -93,21 +109,51 @@
 		"strength": 16,
 		"promotions": ["Hero", "Good"],
 		"upgradesTo": "Gandalf, the White",
-		"uniques": ["Consumes [1] [Special]", "Unbuildable", "[+50]% Strength <vs [Balrog] units> <with [50]% chance>","Free [Gandalf, the White] appears <upon being defeated>"],
+		"uniques": ["Consumes [1] [Special]", 
+					"Unbuildable", 
+					"[+50]% Strength <vs [Balrog] units> <with [50]% chance>",
+					"Free [Gandalf, the White] appears <upon being defeated>",
+					//Strength scaling
+					"[+6] Strength <during the [Second Age]> <hidden from users>",							//22
+					"[+11] Strength <during the [Third Age]> <hidden from users>",							//27
+					"[+17] Strength <during the [Fourth Age]> <hidden from users>",							//33
 
+					"Limited to [1] per Civilization <hidden from users>", 
+					"Cannot be purchased <hidden from users>",
+					"Never appears as a Barbarian unit <hidden from users>",
+		],
 	},
 	{
 		"name": "Gandalf, the White",
 		"unitType": "Ranged",
 		"movement": 3,
 		"strength": 18,
-		"rangedStrength": 14,
+		"rangedStrength": 16,
 		"range": 1,
 		"cost": 120,
 		"promotions": ["Hero", "Good"],
 		"requiredTech": "Horseback Riding",
-		"uniques": ["Never appears as a Barbarian unit","Consumes [1] [Special]", "Only available <with [Special]>", 
-			"[+50]% Strength <vs [Balrog] units>", "[+50]% Strength <vs [Nazgul] units>", "Ignores Zone of Control", "Unbuildable"],
+		"uniques": ["Never appears as a Barbarian unit",
+					"Consumes [1] [Special]", 
+					"Only available <with [Special]>", 
+					"[+50]% Strength <vs [Balrog] units>", 
+					"[+50]% Strength <vs [Nazgul] units>", 
+			
+					//Strength scaling
+					"[+5] rangedStrength <during the [Second Age]> <hidden from users>",		//21
+					"[+10] rangedStrength <during the [Third Age]> <hidden from users>",		//26
+					"[+15] rangedStrength <during the [Fourth Age]> <hidden from users>",		//31
+			
+					"[+4] Strength <during the [Second Age]> <hidden from users>",		//22
+					"[+8] Strength <during the [Third Age]> <hidden from users>",		//26
+					"[+12] Strength <during the [Fourth Age]> <hidden from users>",		//30
+				
+					"Limited to [1] per Civilization <hidden from users>", 
+					"Cannot be purchased <hidden from users>",
+					"Never appears as a Barbarian unit <hidden from users>", 
+					"Unbuildable <hidden from users>"
+					"Ignores Zone of Control", 
+					],
 	},
     //Rohan
 	{
@@ -125,11 +171,11 @@
 					"Comment [[Snowmane]: Mount Snowmane to become a [Mounted] unit. Cooldown: 5 turns.]",	
 					
 					//Strength scaling
-					"[+10] Strength <during the [Second Age]> <hidden from users>",							//28
-					"[+20] Strength <during the [Third Age]> <hidden from users>",							//38
-					"[+30] Strength <during the [Fourth Age]> <hidden from users>",							//48
+					"[+6] Strength <during the [Second Age]> <hidden from users>",							//24
+					"[+12] Strength <during the [Third Age]> <hidden from users>",							//30
+					"[+18] Strength <during the [Fourth Age]> <hidden from users>",							//36
 
-					"Limited to [1] per Civilization <hidden from users>", w
+					"Limited to [1] per Civilization <hidden from users>", 
 					"Cannot be purchased <hidden from users>",
 					"Never appears as a Barbarian unit <hidden from users>", 
 					"Unbuildable <hidden from users>","[+15]% Strength bonus for [Military] units within [2] tiles",
@@ -140,7 +186,7 @@
 		"unitType": "Mounted",
 		"uniqueTo": "Rohan",
 		"movement": 4,
-		"strength": 16,
+		"strength": 17,
 		"promotions": ["Hero", "Good"],
 		"uniques": ["Comment [Strength scales with era\n\nAbilities List:]",
 					//Abilities
@@ -149,12 +195,11 @@
 					"Comment [[Éomer Éadig]: Grant Golden Age or turn to King Éomer after Theoden's death?. Cooldown: 3 turns.]",
 					
 					//Strength scaling
-					"[+10] Strength <during the [Second Age]> <hidden from users>",							//26
-					"[+20] Strength <during the [Third Age]> <hidden from users>",							//36
-					"[+30] Strength <during the [Fourth Age]> <hidden from users>",							//46
+					"[+6] Strength <during the [Second Age]> <hidden from users>",							//23
+					"[+11] Strength <during the [Third Age]> <hidden from users>",							//28
+					"[+18] Strength <during the [Fourth Age]> <hidden from users>",							//35
 
 					"Limited to [1] per Civilization <hidden from users>", 
-					"Instantly consumes [20] [Valor]", 
 
 					"Cannot be purchased <hidden from users>",
 					"Never appears as a Barbarian unit <hidden from users>", 
@@ -175,17 +220,15 @@
 					"Comment [[Lady of Ithilien]: Grant Golden Age or turn to King Éomer after Theoden's death?. Cooldown: 3 turns.]",
 					
 					//Strength scaling
-					"[+8] Strength <during the [Second Age]> <hidden from users>",							//22
-					"[+14] Strength <during the [Third Age]> <hidden from users>",							//28
-					"[+24] Strength <during the [Fourth Age]> <hidden from users>",							//38
+					"[+4] Strength <during the [Second Age]> <hidden from users>",							//18
+					"[+8] Strength <during the [Third Age]> <hidden from users>",							//22
+					"[+12] Strength <during the [Fourth Age]> <hidden from users>",							//26
 
 					"Limited to [1] per Civilization <hidden from users>", 
-					"Instantly consumes [10] [Valor]", 
 
 					"Cannot be purchased <hidden from users>",
 					"Never appears as a Barbarian unit <hidden from users>", 
 					"Unbuildable <hidden from users>",
-					"[+15]% Strength bonus for [Military] units within [2] tiles",
 					"[300]% Strength <vs [{Witch-King}] units>"
 					],
 	},
@@ -402,7 +445,7 @@
 		"uniques": [
 			"[+100]% Strength <vs cities>",
 			"Can move immediately once bought",
-			"Never appears as a Barbarian unit",
+			"Never appears as a Barbarian5 unit",
 			"Only available <with [SpecialEnt]> <if [Good] is constructed>",
 			"Unbuildable <in cities without a [Ent Supply]>"
                               ],
