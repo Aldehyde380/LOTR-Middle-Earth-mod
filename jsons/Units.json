@@ -77,24 +77,81 @@
 	//Evil nation units: 
 	//Barrow Wights (mordor), Bats of Dor-Guldur (mordor), Olog-hai (mordor), Siege-beasts (Mordor/Angmar), Eye of Sauron (building instead)
 	//Flies of mordor, 
+
+	//Rhosgobel
 	{
 		"name": "Radagast, the Brown",
 		"unitType": "Ranged",
-		"movement": 3,
+		"movement": 2,
 		"strength": 13,
 		"rangedStrength": 15,
 		"range": 1,
-		"promotions": ["Hero", "Animalia"], 
+		"promotions": ["Hero", "Good", "Animalia"], 
 		"uniques": ["Consumes [1] [Special]", 
 					//Strength scaling
-					"[+4] rangedStrength <during the [Second Age]> <hidden from users>",		//19
-					"[+8] rangedStrength <during the [Third Age]> <hidden from users>",			//23
-					"[+12] rangedStrength <during the [Fourth Age]> <hidden from users>",		//27
-			
-					"[+5] Strength <during the [Second Age]> <hidden from users>",		//18
-					"[+10] Strength <during the [Third Age]> <hidden from users>",		//23
-					"[+15] Strength <during the [Fourth Age]> <hidden from users>",		//28
+					"[+4] Strength <during the [Second Age]> <hidden from users>",		//ranged = 19, melee = 17
+					"[+8] Strength <during the [Third Age]> <hidden from users>",		//ranged = 23, melee = 21
+					"[+12] Strength <during the [Fourth Age]> <hidden from users>",		//ranged = 27, melee = 25
 				
+					"Limited to [1] per Civilization <hidden from users>", 
+					"Cannot be purchased <hidden from users>",
+					"Never appears as a Barbarian unit <hidden from users>", 
+					"Unbuildable <hidden from users>"
+					],
+
+	},
+	{
+		"name": "Snow Lion Form",
+		"unitType": "Melee",
+		"movement": 3,
+		"strength": 20,
+		"promotions": ["Hero", "Good", "Animalia"], 
+		"uniques": [ 
+					//Strength scaling
+					"[+5] Strength <during the [Second Age]> <hidden from users>",		//25
+					"[+10] Strength <during the [Third Age]> <hidden from users>",		//30
+					"[+15] Strength <during the [Fourth Age]> <hidden from users>",		//35
+				
+					"Limited to [1] per Civilization <hidden from users>", 
+					"Cannot be purchased <hidden from users>",
+					"Never appears as a Barbarian unit <hidden from users>", 
+					"Unbuildable <hidden from users>"
+					],
+
+	},
+	{
+		"name": "Eagle Form",
+		"unitType": "Flying",
+		"movement": 4,
+		"strength": 20,
+		"promotions": ["Hero", "Good", "Animalia"], 
+		"uniques": [ 
+					//Strength scaling
+					"[+5] Strength <during the [Second Age]> <hidden from users>",		//25
+					"[+10] Strength <during the [Third Age]> <hidden from users>",		//30
+					"[+15] Strength <during the [Fourth Age]> <hidden from users>",		//35
+				
+					"Limited to [1] per Civilization <hidden from users>", 
+					"Cannot be purchased <hidden from users>",
+					"Never appears as a Barbarian unit <hidden from users>", 
+					"Unbuildable <hidden from users>"
+					],
+
+	},
+	{
+		"name": "Whale Form",
+		"unitType": "Melee Water",
+		"movement": 3,
+		"strength": 20,
+		"promotions": ["Hero", "Good", "Animalia"], 
+		"uniques": [ 
+					//Strength scaling
+					"[+5] Strength <during the [Second Age]> <hidden from users>",		//25
+					"[+10] Strength <during the [Third Age]> <hidden from users>",		//30
+					"[+15] Strength <during the [Fourth Age]> <hidden from users>",		//35
+
+					"May travel on Water tiles without embarking",
+					"Double movement in [Water] tiles",
 					"Limited to [1] per Civilization <hidden from users>", 
 					"Cannot be purchased <hidden from users>",
 					"Never appears as a Barbarian unit <hidden from users>", 
