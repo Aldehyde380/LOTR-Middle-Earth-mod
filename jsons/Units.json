@@ -111,7 +111,15 @@
 					"[+5] Strength <during the [Second Age]> <hidden from users>",		//25
 					"[+10] Strength <during the [Third Age]> <hidden from users>",		//30
 					"[+15] Strength <during the [Fourth Age]> <hidden from users>",		//35
-				
+
+					"[+40]% Strength <when attacking> <vs [Land] units>",
+					"[-25]% Strength <when defending> <vs [Land] units>",
+					"[+35]% Strength <when attacking> <when below [50] HP>",
+					"[+100]% Strength <vs [Barbarian] units>",
+					"No defensive terrain bonus","No defensive terrain penalty","No damage penalty for wounded units",
+					"[-5] HP when healing","Heals [10] damage if it kills a unit",
+					"[+75]% maintenance costs",
+			
 					"Limited to [1] per Civilization <hidden from users>", 
 					"Cannot be purchased <hidden from users>",
 					"Never appears as a Barbarian unit <hidden from users>", 
@@ -124,13 +132,14 @@
 		"unitType": "Flying",
 		"movement": 4,
 		"strength": 20,
-		"promotions": ["Hero", "Good", "Animalia"], 
+		"promotions": ["Hero", "Good", "Animalia", "Eagle's Vision"], 
 		"uniques": [ 
 					//Strength scaling
 					"[+5] Strength <during the [Second Age]> <hidden from users>",		//25
 					"[+10] Strength <during the [Third Age]> <hidden from users>",		//30
 					"[+15] Strength <during the [Fourth Age]> <hidden from users>",		//35
-				
+
+					"[+1] Sight",
 					"Limited to [1] per Civilization <hidden from users>", 
 					"Cannot be purchased <hidden from users>",
 					"Never appears as a Barbarian unit <hidden from users>", 
@@ -141,7 +150,7 @@
 	{
 		"name": "Whale Form",
 		"unitType": "Melee Water",
-		"movement": 3,
+		"movement": 2,
 		"strength": 20,
 		"promotions": ["Hero", "Good", "Animalia"], 
 		"uniques": [ 
@@ -152,6 +161,7 @@
 
 					"May travel on Water tiles without embarking",
 					"Double movement in [Water] tiles",
+					"[-1] Movement <in [Land] tiles>", 
 					"Limited to [1] per Civilization <hidden from users>", 
 					"Cannot be purchased <hidden from users>",
 					"Never appears as a Barbarian unit <hidden from users>", 
@@ -201,9 +211,9 @@
 					"[+10] rangedStrength <during the [Third Age]> <hidden from users>",		//26
 					"[+15] rangedStrength <during the [Fourth Age]> <hidden from users>",		//31
 			
-					"[+4] Strength <during the [Second Age]> <hidden from users>",		//22
-					"[+8] Strength <during the [Third Age]> <hidden from users>",		//26
-					"[+12] Strength <during the [Fourth Age]> <hidden from users>",		//30
+					"[+5] Strength <during the [Second Age]> <hidden from users>",		//ranged = 21, melee = 23
+					"[+9] Strength <during the [Third Age]> <hidden from users>",		//ranged = 25, melee = 27
+					"[+13] Strength <during the [Fourth Age]> <hidden from users>",		//ranged = 29, melee = 31
 				
 					"Limited to [1] per Civilization <hidden from users>", 
 					"Cannot be purchased <hidden from users>",
@@ -228,9 +238,9 @@
 					"Comment [[Snowmane]: Mount Snowmane to become a [Mounted] unit. Cooldown: 5 turns.]",	
 					
 					//Strength scaling
-					"[+6] Strength <during the [Second Age]> <hidden from users>",							//24
-					"[+12] Strength <during the [Third Age]> <hidden from users>",							//30
-					"[+18] Strength <during the [Fourth Age]> <hidden from users>",							//36
+					"[+5] Strength <during the [Second Age]> <hidden from users>",							//23
+					"[+10] Strength <during the [Third Age]> <hidden from users>",							//28
+					"[+15] Strength <during the [Fourth Age]> <hidden from users>",							//33
 
 					"Limited to [1] per Civilization <hidden from users>", 
 					"Cannot be purchased <hidden from users>",
@@ -271,11 +281,6 @@
 		"strength": 14,
 		"promotions": ["Hero", "Good"],
 		"uniques": ["Comment [Strength scales with era\n\nAbilities List:]",
-					//Abilities
-					"Comment [[Shieldmaiden]: Grant . Cost: 100 [Honor]]", 
-					"Comment [[White Lady of Rohan]: +15% Strength for all [Friendly] units, stacks with Great General. Cost: 150 [Honor]]",
-					"Comment [[Lady of Ithilien]: Grant Golden Age or turn to King Éomer after Theoden's death?. Cooldown: 3 turns.]",
-					
 					//Strength scaling
 					"[+4] Strength <during the [Second Age]> <hidden from users>",							//18
 					"[+8] Strength <during the [Third Age]> <hidden from users>",							//22
@@ -302,16 +307,21 @@
 					"Comment [[Hands of the King]: ???", 
 					"Comment [[Chieftain of the Dúnedain]: ???]",
 					"Comment [[Brego]: Withdraws before melee combat for 1 turn. Cost: 30 [Honor]]",	
+			
+					//Strength scaling
+					"[+6] Strength <during the [Second Age]> <hidden from users>",							//24
+					"[+12] Strength <during the [Third Age]> <hidden from users>",							//30
+					"[+18] Strength <during the [Fourth Age]> <hidden from users>",							//36
 					
 					"Limited to [1] per Civilization <hidden from users>", 
 					"Ignores terrain cost", 
-					"[+1] Movement", "[+1] Sight", 
+					"[+1] Sight", 
 					"Cannot be purchased <hidden from users>",
 					"Never appears as a Barbarian unit <hidden from users>", 
 					"Unbuildable <hidden from users>","[+15]% Strength bonus for [Military] units within [2] tiles",
 					"Ignores terrain cost", 
 					"No damamge penalty for wounded units", "Unable to pillage tiles", "Shown while unbuildable", 				
-					"Can move immediately once bought", "Can move after attacking", 
+					"Can move after attacking", 
 					],
 	},
 	{
@@ -319,18 +329,28 @@
 		"unitType": "Ranged",
 		"uniqueTo": "Gondor",
 		"movement": 2,
-		"strength": 18,
+		"strength": 15,
 		"rangedStrength": 15,
 		"range": 2,
 		"promotions": ["Hero","Good"],
-		"uniques": ["Unbuildable", "Ignores terrain cost"],
+		"uniques": ["Ignores terrain cost"  
+			
+					//Strength scaling
+					"[+4] Strength <during the [Second Age]> <hidden from users>",		//ranged = 19, melee = 17
+					"[+8] Strength <during the [Third Age]> <hidden from users>",		//ranged = 23, melee = 21
+					"[+12] Strength <during the [Fourth Age]> <hidden from users>",		//ranged = 27, melee = 25
+				
+					"Limited to [1] per Civilization <hidden from users>", 
+					"Cannot be purchased <hidden from users>",
+					"Never appears as a Barbarian unit <hidden from users>", 
+					"Unbuildable <hidden from users>"],
 	},
 	{
 		"name": "Boromir",
 		"unitType": "Melee",
 		"uniqueTo": "Gondor",
 		"movement": 2,
-		"strength": 18,
+		"strength": 17,
 		"promotions": ["Hero","Good"],
 		"uniques": [
 			"Unbuildable", 
