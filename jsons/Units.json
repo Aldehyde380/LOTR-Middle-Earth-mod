@@ -341,8 +341,8 @@
 					"[+12] Strength <during the [Fourth Age]> <hidden from users>",		//ranged = 27, melee = 25
 
 					//Abilities
-					
-			
+					"[+15]% Strength bonus for [Ranged] units within [1] tiles",
+
 					"Limited to [1] per Civilization <hidden from users>", 
 					"Cannot be purchased <hidden from users>",
 					"Never appears as a Barbarian unit <hidden from users>", 
@@ -356,10 +356,19 @@
 		"strength": 17,
 		"promotions": ["Hero","Good"],
 		"uniques": [
-			"Unbuildable", 
-			"Ignores terrain cost",
-			"[+15]% Strength bonus for [Military] units within [2] tiles",
-			"[+20]% Strength bonus for friendly [Military] units <when fighting in [Friendly Land] tiles>"
+			//Strength scaling
+			"[+6] Strength <during the [Second Age]> <hidden from users>",							//23
+			"[+11] Strength <during the [Third Age]> <hidden from users>",							//28
+			"[+17] Strength <during the [Fourth Age]> <hidden from users>",							//34
+					
+			//Abilities
+			"Great General provides double combat bonus",
+			"[+20]% Strength bonus for [Gondor] units <when fighting in [Friendly Land] tiles>",
+			"No damage penalty for wounded units", 
+			"Limited to [1] per Civilization <hidden from users>", 
+			"Cannot be purchased <hidden from users>",
+			"Never appears as a Barbarian unit <hidden from users>", 
+			"Unbuildable <hidden from users>"
 		],
 	},
 	//Noldor Elves
