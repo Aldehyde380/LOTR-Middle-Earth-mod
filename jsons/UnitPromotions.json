@@ -40,6 +40,7 @@
 		"name": "Horn of Gondor",
 		"uniques": ["[Gondor] units gain the [Debuff Immune] promotion",
 					"[-15]% Strength bonus for [Hostile] units within [2] tiles <for [2] turns>",
+					"[+15]% Strength bonus for [Gondor] units within [2] tiles <for [2] turns>",
 					"No Sight <with [33]% chance> <for [1] turns>",
 					"Cannot attack <with [33]% chance> <for [1] turns>",
 					"No defensive terrain bonus <with [33]% chance> <for [2] turns>"]
