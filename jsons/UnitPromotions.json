@@ -24,73 +24,22 @@
 	//Rohan
 	{
 		"name": "Indomitable",
-		"uniques": ["[This Unit] gains the [Debuff Immune] promotion <for [0] movement> <costs [+100] [Honor] stats> <once> <hidden from users>",]
+		"uniques": ["[This Unit] gains the [Debuff Immune] promotion <for [0] movement> <once> <hidden from users>",]
+	},
+
+		//Gondor
+	{
+		"name": "Ranger's Ambush",
+		"uniques": ["[Ranged] units gain the [Stealth] promotion <for every [3] [Ranged] Units>",]
+	},
+	{
+		"name": "Stealth",
+		"uniques": ["[This Unit] gains the [Stealth] status for [3] turns", "[This Unit] loses the [Stealth] status <upon entering combat>"]
 	},
 	
 	//Status promotions
-	{
-		"name": "Debuff Immune",
-		"uniques": ["Comment [Immune from ALL negative statuses]",
-					
-					//Remove new debuffs
-					"[This Unit] loses the [Stunned] status <upon gaining the [Stunned] status> <hidden from users>",
-					"[This Unit] loses the [Baned] status <upon gaining the [Baned] status> <hidden from users>",
-					"[This Unit] loses the [Burning] status <upon gaining the [Burning] status> <hidden from users>",
-					"[This Unit] loses the [Binded] status <upon gaining the [Binded] status> <hidden from users>",
-					"[This Unit] loses the [Bleeding] status <upon gaining the [Bleeding] status> <hidden from users>",
-					"[This Unit] loses the [Blinded] status <upon gaining the [Blinded] status> <hidden from users>",
-					"[This Unit] loses the [Brittle] status <upon gaining the [Brittle] status> <hidden from users>",
-					"[This Unit] loses the [Broken] status <upon gaining the [Broken] status> <hidden from users>",
-					"[This Unit] loses the [Chained] status <upon gaining the [Chained] status> <hidden from users>",
-					"[This Unit] loses the [Chilled] status <upon gaining the [Chilled] status> <hidden from users>",
-					"[This Unit] loses the [Crippled] status <upon gaining the [Crippled] status> <hidden from users>",
-					"[This Unit] loses the [Crushed] status <upon gaining the [Crushed] status> <hidden from users>",
-					"[This Unit] loses the [Disarmed] status <upon gaining the [Disarmed] status> <hidden from users>",
-					"[This Unit] loses the [Disoriented] status <upon gaining the [Disoriented] status> <hidden from users>",
-					"[This Unit] loses the [Ensnared] status <upon gaining the [Ensnared] status> <hidden from users>",
-					"[This Unit] loses the [Fatigued] status <upon gaining the [Fatigued] status> <hidden from users>",
-					"[This Unit] loses the [Frostbitten] status <upon gaining the [Frostbitten] status> <hidden from users>",
-					"[This Unit] loses the [Frozen] status <upon gaining the [Frozen] status> <hidden from users>",
-					"[This Unit] loses the [Infected] status <upon gaining the [Infected] status> <hidden from users>",
-					"[This Unit] loses the [Marked] status <upon gaining the [Marked] status> <hidden from users>",
-					"[This Unit] loses the [Rooted] status <upon gaining the [Rooted] status> <hidden from users>",
-					"[This Unit] loses the [Elune's Rooted] status <upon gaining the [Elune's Rooted] status> <hidden from users>",
-					"[This Unit] loses the [Shackled] status <upon gaining the [Shackled] status> <hidden from users>",
-					"[This Unit] loses the [Shocked] status <upon gaining the [Shocked] status> <hidden from users>",
-					"[This Unit] loses the [Slowed] status <upon gaining the [Slowed] status> <hidden from users>",
-					"[This Unit] loses the [Withered] status <upon gaining the [Withered] status> <hidden from users>",
-					
-					//Remove existing debuffs
-					"[This Unit] loses the [Stunned] status <upon gaining the [Debuff Immune] status> <hidden from users>",
-					"[This Unit] loses the [Baned] status <upon gaining the [Debuff Immune] status> <hidden from users>",
-					"[This Unit] loses the [Burning] status <upon gaining the [Debuff Immune] status> <hidden from users>",
-					"[This Unit] loses the [Binded] status <upon gaining the [Debuff Immune] status> <hidden from users>",
-					"[This Unit] loses the [Bleeding] status <upon gaining the [Debuff Immune] status> <hidden from users>",
-					"[This Unit] loses the [Blinded] status <upon gaining the [Debuff Immune] status> <hidden from users>",
-					"[This Unit] loses the [Brittle] status <upon gaining the [Debuff Immune] status> <hidden from users>",
-					"[This Unit] loses the [Broken] status <upon gaining the [Debuff Immune] status> <hidden from users>",
-					"[This Unit] loses the [Chained] status <upon gaining the [Debuff Immune] status> <hidden from users>",
-					"[This Unit] loses the [Chilled] status <upon gaining the [Debuff Immune] status> <hidden from users>",
-					"[This Unit] loses the [Crippled] status <upon gaining the [Debuff Immune] status> <hidden from users>",
-					"[This Unit] loses the [Crushed] status <upon gaining the [Debuff Immune] status> <hidden from users>",
-					"[This Unit] loses the [Disarmed] status <upon gaining the [Debuff Immune] status> <hidden from users>",
-					"[This Unit] loses the [Disoriented] status <upon gaining the [Debuff Immune] status> <hidden from users>",
-					"[This Unit] loses the [Ensnared] status <upon gaining the [Debuff Immune] status> <hidden from users>",
-					"[This Unit] loses the [Fatigued] status <upon gaining the [Debuff Immune] status> <hidden from users>",
-					"[This Unit] loses the [Frostbitten] status <upon gaining the [Debuff Immune] status> <hidden from users>",
-					"[This Unit] loses the [Frozen] status <upon gaining the [Debuff Immune] status> <hidden from users>",
-					"[This Unit] loses the [Infected] status <upon gaining the [Debuff Immune] status> <hidden from users>",
-					"[This Unit] loses the [Marked] status <upon gaining the [Debuff Immune] status> <hidden from users>",
-					"[This Unit] loses the [Rooted] status <upon gaining the [Debuff Immune] status> <hidden from users>",
-					"[This Unit] loses the [Elune's Rooted] status <upon gaining the [Debuff Immune] status> <hidden from users>",
-					"[This Unit] loses the [Shackled] status <upon gaining the [Debuff Immune] status> <hidden from users>",
-					"[This Unit] loses the [Shocked] status <upon gaining the [Debuff Immune] status> <hidden from users>",
-					"[This Unit] loses the [Slowed] status <upon gaining the [Debuff Immune] status> <hidden from users>",
-					"[This Unit] loses the [Withered] status <upon gaining the [Debuff Immune] status> <hidden from users>",
-					
-					"[+1]% Strength <hidden from users>",
-		],
-	},
+
+	
 	{
 		"name": "Healer I",
 		"uniques": ["Healer 1 <hidden from users>", "Comment [All adjacent Land units heal [5] HP at turn end]"]
