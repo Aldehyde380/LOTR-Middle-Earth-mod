@@ -80,28 +80,8 @@
 		"innerColor": [255,255,255],
 		"uniqueName": "For the White City",
 		"uniqueText": "Workers improve tiles 25% faster, receive a free Worker when you discover Pottery",
-		"uniques": ["Comment [Gain 25 [Faith] and 1 [Honor] upon losing a unit in battle]",
-					"Comment [Gain [Honor] upon defeating a non-[Barbarian] unit]",
-					"Comment [Gain double the [Honor] upon defeating an [Evil] non-[Barbarian] unit]",
-					"Comment [Gain 10 [Honor] upon entering new era]",
-					"Comment [Consume [Honor] to summon heroic units of Gondor]",
-
-					//Honor
-					"Instantly gain [10] [Honor] <upon entering a new era> <hidden from users>",
-					"Instantly gain [1] [Honor] <upon defeating a [{First Age} {non-[Barbarian]}] unit> <hidden from users>",
-					"Instantly gain [2] [Honor] <upon defeating a [{First Age} {Evil} {non-[Barbarian]}] unit> <hidden from users>",
-					"Instantly gain [3] [Honor] <upon defeating a [{Second Age} {non-[Barbarian]}] unit> <hidden from users>",
-					"Instantly gain [6] [Honor] <upon defeating a [{Second Age} {Evil} {non-[Barbarian]}] unit> <hidden from users>",
-					"Instantly gain [8] [Honor] <upon defeating a [{Third Age} {non-[Barbarian]}] unit> <hidden from users>",
-					"Instantly gain [16] [Honor] <upon defeating a [{Third Age} {Evil} {non-[Barbarian]}] unit> <hidden from users>",
-					"Instantly gain [15] [Honor] <upon defeating a [{Fourth Age} {non-[Barbarian]}] unit> <hidden from users>",
-					"Instantly gain [30] [Honor] <upon defeating a [{Fourth Age} {Evil} {non-[Barbarian]}] unit> <hidden from users>",
-
-					//Hero Summon
-					"May buy [Strider] units for [0] [Faith] [in all cities] <when above [11] [Honor]> <hidden from users>",
-					"May buy [Boromir] units for [0] [Faith] [in all cities] <when above [14] [Honor]> <hidden from users>",
-					"May buy [Faramir] units for [0] [Faith] [in all cities] <when above [14] [Honor]> <hidden from users>",
-					
+		"uniques": [
+					"[Gondor] units gain the [Men of Gondor] promotion <upon gaining a [Boromir] unit>",
 					"Gain a free [Rings] [in capital]",
 					"Gain a free [Good] [in capital]",
 					"Provides [1] [Shards of Narsil]",
