@@ -30,25 +30,53 @@
 		//Gondor
 	{
 		"name": "Ranger's Ambush",
-		"uniques": ["[Ranged] units gain the [Stealth] promotion <for every [3] [Ranged] Units>",]
+		"uniques": ["[Ranged] units gain the [Stealth] promotion <for every [3] [Ranged] Units> <for every [3] [turns]",]
 	},
 	{
 		"name": "Stealth",
-		"uniques": ["[This Unit] gains the [Stealth] status for [3] turns", "[This Unit] loses the [Stealth] status <upon entering combat>"]
+		"uniques": ["Invisible to non-adjacent units", "[This Unit] loses the [Stealth] status <upon entering combat>"]
+	},
+	{
+		"name": "Horn of Gondor",
+		"uniques": ["[Gondor] units gain the [Debuff Immune] promotion",
+					"[-15]% Strength bonus for [Hostile] units within [2] tiles <for [2] turns>",
+					"No Sight <with [33]% chance> <for [1] turns>",
+					"Cannot attack <with [33]% chance> <for [1] turns>",
+					"No defensive terrain bonus <with [33]% chance> <for [2] turns>"]
 	},
 	
-	//Status promotions
+
+	//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~//
+	//							Debuff List																				  //
+	//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~//
+	
+	{
+		"name": "Stunned",
+		"uniques": ["[This Unit] loses [999] movement <upon turn start>",
+					"Cannot attack", "Cannot move", 
+					"[-15]% Strength", 
+					"No defensive terrain bonus", 
+					"Can only heal by pillaging", 
+					"No Sight"],
+	},
 
 	
+	//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~//
+	//				DEBUFF IMMUNE 			Make sure any newly added removeable debuffs are included below								  //
+	//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~//
+	
 	{
-		"name": "Healer I",
-		"uniques": ["Healer 1 <hidden from users>", "Comment [All adjacent Land units heal [5] HP at turn end]"]
+		"name": "Debuff Immune",
+		"uniques": ["Comment [Immune from ALL negative statuses]",
+			
+					//Remove new debuffs
+					"[This Unit] loses the [Stunned] status <upon gaining the [Stunned] status> <hidden from users>",
+			
+					//Remove existing debuffs
+					"[This Unit] loses the [Stunned] status <upon gaining the [Debuff Immune] status> <hidden from users>",
+					"]
 	},
-	{
-		"name": "Healer II",
-		"prerequisites":["Healer I"],
-		"uniques": ["Healer 2 <hidden from users>", "Comment [All Land units within 1-tile heal [5] HP at turn end]"]
-	},
+	
 
 	
 	{
