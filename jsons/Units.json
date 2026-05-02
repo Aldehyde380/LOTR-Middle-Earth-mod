@@ -332,7 +332,7 @@
 		"strength": 15,
 		"rangedStrength": 15,
 		"range": 2,
-		"promotions": ["Hero","Good"],
+		"promotions": ["Hero","Good", "Ranger's Ambush"],
 		"uniques": ["Ignores terrain cost"  
 			
 					//Strength scaling
@@ -354,7 +354,7 @@
 		"uniqueTo": "Gondor",
 		"movement": 2,
 		"strength": 17,
-		"promotions": ["Hero","Good"],
+		"promotions": ["Hero","Good", "Horn of Gondor"],
 		"uniques": [
 			//Strength scaling
 			"[+6] Strength <during the [Second Age]> <hidden from users>",							//23
