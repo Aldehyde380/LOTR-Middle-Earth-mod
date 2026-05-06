@@ -300,7 +300,7 @@
 		"unitType": "Melee",
 		"uniqueTo": "Gondor",
 		"movement": 2,
-		"strength": 18,
+		"strength": 19,
 		"promotions": ["Hero","Good","Medic"],
 		"uniques": ["Comment [Strength scales with era\n\nAbilities List:]",
 					//Abilities
@@ -309,9 +309,9 @@
 					"Comment [[Brego]: Withdraws before melee combat for 1 turn. Cost: 30 [Honor]]",	
 			
 					//Strength scaling
-					"[+6] Strength <during the [Second Age]> <hidden from users>",							//24
-					"[+12] Strength <during the [Third Age]> <hidden from users>",							//30
-					"[+18] Strength <during the [Fourth Age]> <hidden from users>",							//36
+					"[+6] Strength <during the [Second Age]> <hidden from users>",							//25
+					"[+12] Strength <during the [Third Age]> <hidden from users>",							//31
+					"[+18] Strength <during the [Fourth Age]> <hidden from users>",							//37
 					
 					"Limited to [1] per Civilization <hidden from users>", 
 					"Ignores terrain cost", 
@@ -377,9 +377,22 @@
 		"unitType": "Melee",
 		"uniqueTo": "Noldor Elves",
 		"movement": 2,
-		"strength": 17,
-		"promotions": ["Hero","Good"],
-		"uniques": ["Unbuildable", "[+1] Sight"],
+		"strength": 16,
+		"promotions": ["Hero","Good", "Vilya"],
+		"uniques": [
+			//Strength scaling
+			"[+4] Strength <during the [Second Age]> <hidden from users>",							//20
+			"[+9] Strength <during the [Third Age]> <hidden from users>",							//25
+			"[+14] Strength <during the [Fourth Age]> <hidden from users>",							//30
+					
+			//Abilities
+			"[+1] Sight",
+			"[-20]% City-State Influence degradation",
+			"Can undertake a trade mission with City-State, giving a large sum of gold and [5] Influence"
+			"Limited to [1] per Civilization <hidden from users>", 
+			"Cannot be purchased <hidden from users>",
+			"Never appears as a Barbarian unit <hidden from users>", 
+			"Unbuildable <hidden from users>"],
 	},
 	{
 		"name": "Galadriel",
