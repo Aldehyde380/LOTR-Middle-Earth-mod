@@ -399,9 +399,24 @@
 		"unitType": "Melee",
 		"uniqueTo": "Noldor Elves",
 		"movement": 2,
-		"strength": 15,
-		"promotions": ["Hero","Good","Ósanwe"],
-		"uniques": ["Unbuildable", "[+20]% Strength <when fighting in [Friendly Land] tiles>"],
+		"strength": 17,
+		"promotions": ["Hero","Good","Ósanwe","Nenya"],
+		"uniques": [
+			//Strength scaling
+			"[+5] Strength <during the [Second Age]> <hidden from users>",							//22
+			"[+10] Strength <during the [Third Age]> <hidden from users>",							//27
+			"[+14] Strength <during the [Fourth Age]> <hidden from users>",							//31
+					
+			//Abilities
+			"[+1] Sight",
+			"Enables conversion of city production to [Science]",
+			"Gain enough faith for a Pantheon",
+			"Limited to [1] per Civilization <hidden from users>", 
+			"Cannot be purchased <hidden from users>",
+			"Never appears as a Barbarian unit <hidden from users>", 
+			"Unbuildable <hidden from users>",
+			"[+20]% Strength <vs [Evil] units>"
+		],
 	},
 	//Sindar Elves
 	{
@@ -411,8 +426,46 @@
 		"movement": 2,
 		"strength": 14,
 		"rangedStrength": 18,
-		"promotions": ["Hero","Good","Logistics"],
-		"uniques": ["Unbuildable", "[50]% Strength <vs [Mumakil] units>", "[50]% Strength <vs [Uruk-Hai] units>"],
+		"interceptRange": 2,
+		"promotions": ["Hero","Good","Logistics","Headshot"],
+		"uniques": [
+					//Strength scaling
+					"[+4] Strength <during the [Second Age]> <hidden from users>",		//ranged = 22, melee = 18
+					"[+9] Strength <during the [Third Age]> <hidden from users>",		//ranged = 27, melee = 23
+					"[+13] Strength <during the [Fourth Age]> <hidden from users>",		//ranged = 31, melee = 27
+					//Abilities
+					"[50]% Strength <vs [Mumakil] units>", 
+					"[50]% Strength <vs [Uruk-Hai] units>",
+					"[+1] Sight",
+					"Ignores terrain cost",
+					"Limited to [1] per Civilization <hidden from users>", 
+					"Cannot be purchased <hidden from users>",
+					"Never appears as a Barbarian unit <hidden from users>", 
+					"Unbuildable <hidden from users>"],
+	},
+	{
+		"name": "Thranduil",
+		"unitType": "Melee",
+		"uniqueTo": "Sindar Elves",
+		"movement": 2,
+		"strength": 14,
+		"rangedStrength": 18,
+		"interceptRange": 2,
+		"promotions": ["Hero","Good","Logistics","Headshot"],
+		"uniques": [
+					//Strength scaling
+					"[+4] Strength <during the [Second Age]> <hidden from users>",		//ranged = 22, melee = 18
+					"[+9] Strength <during the [Third Age]> <hidden from users>",		//ranged = 27, melee = 23
+					"[+13] Strength <during the [Fourth Age]> <hidden from users>",		//ranged = 31, melee = 27
+					//Abilities
+					"[50]% Strength <vs [Mumakil] units>", 
+					"[50]% Strength <vs [Uruk-Hai] units>",
+					"[+1] Sight",
+					"Ignores terrain cost",
+					"Limited to [1] per Civilization <hidden from users>", 
+					"Cannot be purchased <hidden from users>",
+					"Never appears as a Barbarian unit <hidden from users>", 
+					"Unbuildable <hidden from users>"],
 	},
 	//Dwarves
 	{
