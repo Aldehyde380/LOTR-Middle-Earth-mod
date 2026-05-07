@@ -55,7 +55,11 @@
 		"name": "Nenya",
 		"uniques": ["[+20]% Golden Age length", "All healing effects doubled <in [Noldor Elves] cities>"]
 	},
-
+		//Sindar
+	{
+		"name": "Headshot",
+		"uniques": ["[+999] Strength <when attacking> <with [10]% chance>"]
+	},
 	
 	//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~//
 	//							Debuff List																				  //
