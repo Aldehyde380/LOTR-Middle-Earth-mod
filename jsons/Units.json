@@ -448,24 +448,34 @@
 		"unitType": "Melee",
 		"uniqueTo": "Sindar Elves",
 		"movement": 2,
-		"strength": 14,
-		"rangedStrength": 18,
-		"interceptRange": 2,
-		"promotions": ["Hero","Good","Logistics","Headshot"],
+		"strength": 17,
+		"promotions": ["Hero","Good"],
 		"uniques": [
 					//Strength scaling
-					"[+4] Strength <during the [Second Age]> <hidden from users>",		//ranged = 22, melee = 18
-					"[+9] Strength <during the [Third Age]> <hidden from users>",		//ranged = 27, melee = 23
-					"[+13] Strength <during the [Fourth Age]> <hidden from users>",		//ranged = 31, melee = 27
-					//Abilities
-					"[50]% Strength <vs [Mumakil] units>", 
-					"[50]% Strength <vs [Uruk-Hai] units>",
-					"[+1] Sight",
+					"[+5] Strength <during the [Second Age]> <hidden from users>",							//22
+					"[+10] Strength <during the [Third Age]> <hidden from users>",							//27
+					"[+15] Strength <during the [Fourth Age]> <hidden from users>",							//32
+					//Abilities 
+					"[Enemy] units gain the [Sleeping] promotion <upon entering a [River] tile> <for [2] turns>",
+					"[+50]% Strength <when stacked with [War Elk] unit>",
+					"Free [War Elk] appears <after discovering [Horseback Riding]>",
 					"Ignores terrain cost",
 					"Limited to [1] per Civilization <hidden from users>", 
 					"Cannot be purchased <hidden from users>",
 					"Never appears as a Barbarian unit <hidden from users>", 
 					"Unbuildable <hidden from users>"],
+	},
+	{
+		"name": "War Elk",
+		"uniqueTo": "Sindar Elves",
+		"unitType": "Mounted",
+		"movement": 3,
+		"strength": 30,
+		"requiredTech": "Horseback Riding",
+		"requiredResource": "Horses",
+		"uniques": ["Unbuildable", "Can move after attacking", "[-10]% Strength for enemy [Land] units in adjacent [Land] tiles", "No defensive terrain bonus", "[-33]% Strength <vs cities>","Can carry [1] [Thranduil] units"],
+		"promotions": ["Formation I"],
+		"attackSound": "horse"
 	},
 	//Dwarves
 	{
