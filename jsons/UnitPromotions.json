@@ -74,7 +74,19 @@
 					"Can only heal by pillaging", 
 					"No Sight"],
 	},
-
+	{
+		"name": "Sleeping",
+		"uniques": [
+			"[This Unit] loses [999] movement <upon turn start>",
+			"[-25]% Strength",
+			"Cannot move", "Cannot attack", "No Sight",
+			"No defensive terrain bonus", "Can only heal by pillaging",
+			"Comment [Cannot be applied to non-Biological units]",
+			"[This Unit] loses the [Sleeping] status <upon losing at least [1] HP in a single attack> <hidden from users>", 
+			
+			"[-1]% Strength <hidden from users>"
+		],
+	},
 	
 	//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~//
 	//				DEBUFF IMMUNE 			Make sure any newly added removeable debuffs are included below								  //
@@ -86,9 +98,11 @@
 			
 					//Remove new debuffs
 					"[This Unit] loses the [Stunned] status <upon gaining the [Stunned] status> <hidden from users>",
+					"[This Unit] loses the [Sleeping] status <upon gaining the [Sleeping] status> <hidden from users>",
 			
 					//Remove existing debuffs
 					"[This Unit] loses the [Stunned] status <upon gaining the [Debuff Immune] status> <hidden from users>",
+					"[This Unit] loses the [Sleeping] status <upon gaining the [Debuff Immune] status> <hidden from users>",
 					"]
 	},
 	
