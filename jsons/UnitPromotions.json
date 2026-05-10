@@ -60,7 +60,29 @@
 		"name": "Headshot",
 		"uniques": ["[+999] Strength <when attacking> <with [10]% chance>"]
 	},
-	
+
+		//Dwarves
+		{
+		"name": "Heavily Armored",
+		"uniques": [
+			"Comment [25% damage reduction, up to 15 damage]",
+			"[This Unit] heals [1] HP <upon losing at least [4] HP in a single attack> <hidden from users>",
+			"[This Unit] heals [1] HP <upon losing at least [8] HP in a single attack> <hidden from users>",
+			"[This Unit] heals [1] HP <upon losing at least [12] HP in a single attack> <hidden from users>",
+			"[This Unit] heals [1] HP <upon losing at least [16] HP in a single attack> <hidden from users>",
+			"[This Unit] heals [1] HP <upon losing at least [20] HP in a single attack> <hidden from users>",
+			"[This Unit] heals [1] HP <upon losing at least [24] HP in a single attack> <hidden from users>",
+			"[This Unit] heals [1] HP <upon losing at least [28] HP in a single attack> <hidden from users>",
+			"[This Unit] heals [1] HP <upon losing at least [32] HP in a single attack> <hidden from users>",
+			"[This Unit] heals [1] HP <upon losing at least [36] HP in a single attack> <hidden from users>",
+			"[This Unit] heals [1] HP <upon losing at least [40] HP in a single attack> <hidden from users>",
+			"[This Unit] heals [1] HP <upon losing at least [44] HP in a single attack> <hidden from users>",
+			"[This Unit] heals [1] HP <upon losing at least [48] HP in a single attack> <hidden from users>",
+			"[This Unit] heals [1] HP <upon losing at least [52] HP in a single attack> <hidden from users>",
+			"[This Unit] heals [1] HP <upon losing at least [56] HP in a single attack> <hidden from users>",
+			"[This Unit] heals [1] HP <upon losing at least [60] HP in a single attack> <hidden from users>",
+			]
+	},
 	//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~//
 	//							Debuff List																				  //
 	//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~//
