@@ -83,6 +83,19 @@
 			"[This Unit] heals [1] HP <upon losing at least [60] HP in a single attack> <hidden from users>",
 			]
 	},
+	{
+		"name": "Battle Frenzy",
+		"uniques": ["[This Unit] gains the [Battle Frenzy Active] status for [3] turn(s) <for [0] movement> <for units without [Animalia Cooldown]> <upon defeating a [Enemy] unit> <[5] times> <hidden from users>",]
+	},
+	{
+		"name": "Battle Frenzy Active",
+		"uniques": ["[+25]% Strength",
+					"[This Unit] gains the [Animalia Cooldown] status for [7] turn(s) <upon gaining the [Animalia Active] status> <hidden from users>",]
+	},
+	{
+		"name": "Battle Frenzy Cooldown",
+		"uniques": ["Comment [Battle Frenzy is on Cooldown]"]
+	},
 	//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~//
 	//							Debuff List																				  //
 	//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~//
