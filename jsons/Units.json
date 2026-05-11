@@ -477,6 +477,36 @@
 		"promotions": ["Formation I"],
 		"attackSound": "horse"
 	},
+	{
+		"name": "Beleg Strongbow",
+		"unitType": "Ranged",
+		"uniqueTo": "Sindar Elves",
+		"movement": 2,
+		"strength": 18,
+		"range": 3,
+		"rangedStrength": 20,
+		"interceptRange": 2,
+		"promotions": ["Hero","Good"],
+		"uniques": [
+					//Strength scaling
+					"[+4] Strength <during the [Second Age]> <hidden from users>",		//ranged = 24, melee = 22
+					"[+8] Strength <during the [Third Age]> <hidden from users>",		//ranged = 28, melee = 26
+					"[+12] Strength <during the [Fourth Age]> <hidden from users>",		//ranged = 32, melee = 30
+					//Abilities
+					"Can carry [1] [Wounded] units",
+					"Unit will heal every turn, even if it performs an action",
+					"No damage penalty for wounded units",
+					"Unable to pillage tiles",
+					"Can see invisible [Enemy] units",
+					"Must set up to ranged attack",
+					"Can move after attacking",
+			
+					"Ignores terrain cost",
+					"Limited to [1] per Civilization <hidden from users>", 
+					"Cannot be purchased <hidden from users>",
+					"Never appears as a Barbarian unit <hidden from users>", 
+					"Unbuildable <hidden from users>"],
+	},
 	//Dwarves
 	{
 		"name": "Gimli",
@@ -484,8 +514,22 @@
 		"uniqueTo": "Dwarves",
 		"movement": 2,
 		"strength": 18,
-		"promotions": ["Hero","Good"],
-		"uniques": ["Unbuildable", "[+50]% Strength <when attacking>"],
+		"promotions": ["Hero","Good","Heavily Armored", "Battle Frenzy"],
+		"uniques": ["Comment [Strength scales with era\n\nAbilities List:]",
+					//Strength scaling
+					"[+6] Strength <during the [Second Age]> <hidden from users>",							//24
+					"[+12] Strength <during the [Third Age]> <hidden from users>",							//30
+					"[+18] Strength <during the [Fourth Age]> <hidden from users>",							//36
+			
+					//Abilities				
+					"[+50]% Strength <when attacking>"
+					"Limited to [1] per Civilization <hidden from users>", 
+					"Ignores terrain cost", 
+			
+					"Cannot be purchased <hidden from users>",
+					"Never appears as a Barbarian unit <hidden from users>", 
+					"Unbuildable <hidden from users>",
+					],
 	},
 	{
 		"name": "Thorin Oakenshield",
@@ -493,19 +537,61 @@
 		"uniqueTo": "Dwarves",
 		"movement": 2,
 		"strength": 18,
-		"promotions": ["Hero","Good"],
-		"uniques": ["Unbuildable", "[+50]% Strength <when attacking>", "[50]% Strength <vs [Goblins] units>"],
+		"promotions": ["Hero","Good","Oakenshield"],
+		"uniques": ["Comment [Strength scales with era\n\nAbilities List:]",
+					//Strength scaling
+					"[+5] Strength <during the [Second Age]> <hidden from users>",							//23
+					"[+10] Strength <during the [Third Age]> <hidden from users>",							//28
+					"[+15] Strength <during the [Fourth Age]> <hidden from users>",							//33
+			
+					//Abilities				
+					"[+50]% Strength <when attacking>"
+					"[+50]% Strength <vs [Goblins] units>"
+					"[-20]% City-State Influence degradation"
+					"Earn [5]% of killed [Enemy] unit's [Cost] as [Gold]"
+					"Limited to [1] per Civilization <hidden from users>", 
+					
+					"Cannot be purchased <hidden from users>",
+					"Never appears as a Barbarian unit <hidden from users>", 
+					"Unbuildable <hidden from users>",
+					],
 	},
 	{
 		"name": "Dain II Ironfoot",
 		"unitType": "Melee",
 		"uniqueTo": "Dwarves",
 		"movement": 2,
-		"strength": 18,
+		"strength": 19,
 		"promotions": ["Hero","Good"],
-		"uniques": ["Unbuildable", "[+50]% Strength <when attacking>"],
+		"uniques": ["Comment [Strength scales with era\n\nAbilities List:]",
+					//Strength scaling
+					"[+6] Strength <during the [Second Age]> <hidden from users>",							//25
+					"[+11] Strength <during the [Third Age]> <hidden from users>",							//30
+					"[+17] Strength <during the [Fourth Age]> <hidden from users>",							//36
+			
+					//Abilities				
+					"[+50]% Strength <when attacking>"
+					"Limited to [1] per Civilization <hidden from users>", 
+					"[+50]% Strength <when stacked with [War Boar] unit>",
+					"Free [War Boar] appears <after discovering [Horseback Riding]>",
+			
+					"Cannot be purchased <hidden from users>",
+					"Never appears as a Barbarian unit <hidden from users>", 
+					"Unbuildable <hidden from users>",
+					],
 	},
-
+	{
+		"name": "War Boar",
+		"uniqueTo": "Dwarves",
+		"unitType": "Mounted",
+		"movement": 3,
+		"strength": 33,
+		"requiredTech": "Horseback Riding",
+		"requiredResource": "Horses",
+		"uniques": ["Unbuildable", "Can move after attacking", "[-10]% Strength for enemy [Land] units in adjacent [Land] tiles", "No defensive terrain bonus", "[-33]% Strength <vs cities>","Can carry [1] [Dain II Ironfoot] units"],
+		"promotions": ["Formation I"],
+		"attackSound": "horse"
+	},
 	//Evil Hero Units
 	{
 		"name": "Wormtongue",
