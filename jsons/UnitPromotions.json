@@ -85,16 +85,34 @@
 	},
 	{
 		"name": "Battle Frenzy",
-		"uniques": ["[This Unit] gains the [Battle Frenzy Active] status for [3] turn(s) <for [0] movement> <for units without [Animalia Cooldown]> <upon defeating a [Enemy] unit> <[5] times> <hidden from users>",]
+		"uniques": ["[This Unit] gains the [Battle Frenzy Active] status for [3] turn(s) <for [0] movement> <for units without [Battle Frenzy Cooldown]> <upon defeating a [Enemy] unit> <[5] times> <hidden from users>",]
 	},
 	{
 		"name": "Battle Frenzy Active",
 		"uniques": ["[+25]% Strength",
-					"[This Unit] gains the [Animalia Cooldown] status for [7] turn(s) <upon gaining the [Animalia Active] status> <hidden from users>",]
+					"[This Unit] gains the [Battle Frenzy Cooldown] status for [7] turn(s) <upon gaining the [Battle Frenzy Active] status> <hidden from users>",]
 	},
 	{
 		"name": "Battle Frenzy Cooldown",
 		"uniques": ["Comment [Battle Frenzy is on Cooldown]"]
+	},
+	{
+		"name": "Oakenshield",
+		"uniques": ["[This Unit] gains the [Oakenshield Active] status for [2] turn(s) <for [0] movement> <for units without [Animalia Cooldown]> <hidden from users>", 
+					"[This Unit] loses the [Oakenshield] promotion <upon gaining the [Oakenshield Active] status> <hidden from users>",]
+	},
+	{
+		"name": "Oakenshield Active",
+		"uniques": ["[+15]% Strength", "Withdraws before melee combat <with [100]% chance>"
+					"[This Unit] gains the [Oakenshield Cooldown] promotion <upon gaining the [Oakenshield Active] status> <hidden from users>",]
+	},
+	{
+		"name": "Oakenshield Cooldown",
+		"uniques": ["Comment [Oakenshield is on Cooldown]"]
+	},
+	{
+		"name": "Oakenshield",
+		"uniques": ["Withdraws before melee combat <with [100]% chance> "]
 	},
 	//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~//
 	//							Debuff List																				  //
