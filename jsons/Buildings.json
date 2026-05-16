@@ -789,23 +789,21 @@
 		{
 		"name": "Wellinghall",
 		"isWonder": true,
-		"production": 2,
-		"science": 1,
-		"gold": 2,
-		//"specialistSlots":  {"Sculptor": 1, "Researcher": 1, "Inventor": 1, "Seller": 1 },
-		"culture": 1,
+		"food": 2,
+		"culture": 2,
 		"cityStrength": 2,
-		"cost": 1,
-		"uniques": ["[-20]% Culture cost of adopting new Policies","[+25]% [Culture] [in all cities]","Indicates the capital city"]
+		"cost": 0,
+		"uniques": ["[+25]% [Food] [in all cities]","[+25]% [Culture] [in all cities]"]
 	},
 	{
 		"name": "Ent-house",
 		"culture": 2,
-		"specialistSlots":  {"Sculptor": 1},
-		"cost": 45,
 		"hurryCostModifier": 40,
 		"maintenance": 1
+		"requiredBuilding": ["Wellinghall", "Summon Treebeard"],
+		"uniques": ["Comment ["Huorns" unit can be built"]
 	},
+
 
 	// First Age
 	{
