@@ -21,13 +21,36 @@
 		"uniques": ["Comment [Animalia is on Cooldown]"]
 	},
 	//Entwood
-	
+	//Treebeard
+	{
+		"name": "Grow Forest",
+		"uniques": ["Comment [Activate to use Grow Forest. Cooldown: 10 turns.]",
+					"[This Unit] gains the [Grow Forest Active] status for [1] turn(s) <for [0] movement> <for units without [Animalia Cooldown]> <hidden from users>",	
+					],
+	},
+	{
+		"name": "Grow Forest Active",
+		"uniques": ["Comment [Can turn this tile into a [Forest] tile]",
+					"Turn this tile into a [Forest] tile <for all movement>",
+					"[This Unit] gains the [Grow Forest Cooldown] status for [3] turn(s) <upon gaining the [Grow Forest Active] status> <hidden from users>",
+		],
+	},
+	{
+		"name": "Grow Forest Cooldown",
+		"uniques": ["Comment [Animalia is on Cooldown]"]
+	},
 	//Huorns
 	{
 		"name": "Shadow Wrap",
 		"uniques": ["[This Unit] gains the [Stealth] promotion <in {[Forest] [Jungle]} tiles>", 
 					"[This Unit] loses the [Stealth] status <upon entering combat>",
 					
+					],
+	},
+	{
+		"name": "Rage",
+		"uniques": ["[This Unit] gains [1] movement <upon being declared war on by [All] Civilizations>",
+					"[+5]% Strength <upon entering combat>",
 					],
 	},
 	//Rohan
