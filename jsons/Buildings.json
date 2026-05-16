@@ -798,7 +798,7 @@
 	{
 		"name": "Ent-house",
 		"culture": 2,
-		"hurryCostModifier": 40,
+		"hurryCostModifier": 45,
 		"maintenance": 1
 		"requiredBuilding": ["Wellinghall", "Summon Treebeard"],
 		"uniques": ["Comment ["Huorns" unit can be built"]
