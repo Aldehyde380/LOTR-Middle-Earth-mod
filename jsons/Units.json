@@ -84,14 +84,14 @@
 		"unitType": "Ranged",
 		"movement": 2,
 		"strength": 13,
-		"rangedStrength": 15,
+		"rangedStrength": 14,
 		"range": 1,
 		"promotions": ["Hero", "Good", "Animalia"], 
 		"uniques": ["Consumes [1] [Special]", 
 					//Strength scaling
-					"[+4] Strength <during the [Second Age]> <hidden from users>",		//ranged = 19, melee = 17
-					"[+8] Strength <during the [Third Age]> <hidden from users>",		//ranged = 23, melee = 21
-					"[+12] Strength <during the [Fourth Age]> <hidden from users>",		//ranged = 27, melee = 25
+					"[+4] Strength <during the [Second Age]> <hidden from users>",		//ranged = 18, melee = 17
+					"[+7] Strength <during the [Third Age]> <hidden from users>",		//ranged = 21, melee = 20
+					"[+10] Strength <during the [Fourth Age]> <hidden from users>",		//ranged = 24, melee = 23
 				
 					"Limited to [1] per Civilization <hidden from users>", 
 					"Cannot be purchased <hidden from users>",
@@ -169,6 +169,32 @@
 					],
 
 	},
+	//Entwood
+	{
+		"name": "Treebeard",
+		"unitType": "Ranged",
+		"movement": 1,
+		"strength": 15,
+		"rangedStrength": 16,
+		"range": 1,
+		"promotions": ["Hero", "Good"], 
+		"uniques": ["Consumes [1] [Special]", 
+					//Strength scaling
+					"[+5] Strength <during the [Second Age]> <hidden from users>",		//ranged = 21, melee = 20
+					"[+10] Strength <during the [Third Age]> <hidden from users>",		//ranged = 26, melee = 25
+					"[+15] Strength <during the [Fourth Age]> <hidden from users>",		//ranged = 31, melee = 30
+					
+					//Abilities
+					"[+100]% Strength <vs cities>",
+					"Discover [Fangorn]",
+					"Limited to [1] per Civilization <hidden from users>", 
+					"Cannot be purchased <hidden from users>",
+					"Never appears as a Barbarian unit <hidden from users>", 
+					"Unbuildable <hidden from users>"
+					],
+
+	},
+	//General
 	{
 		"name": "Gandalf, the Grey",
 		"unitType": "Melee",
@@ -207,11 +233,7 @@
 					"[+50]% Strength <vs [Nazgul] units>", 
 			
 					//Strength scaling
-					"[+5] rangedStrength <during the [Second Age]> <hidden from users>",		//21
-					"[+10] rangedStrength <during the [Third Age]> <hidden from users>",		//26
-					"[+15] rangedStrength <during the [Fourth Age]> <hidden from users>",		//31
-			
-					"[+5] Strength <during the [Second Age]> <hidden from users>",		//ranged = 21, melee = 23
+					"[+4] Strength <during the [Second Age]> <hidden from users>",		//ranged = 20, melee = 22
 					"[+9] Strength <during the [Third Age]> <hidden from users>",		//ranged = 25, melee = 27
 					"[+13] Strength <during the [Fourth Age]> <hidden from users>",		//ranged = 29, melee = 31
 				
@@ -329,16 +351,16 @@
 		"unitType": "Ranged",
 		"uniqueTo": "Gondor",
 		"movement": 2,
-		"strength": 15,
-		"rangedStrength": 15,
+		"strength": 14,
+		"rangedStrength": 14,
 		"range": 2,
 		"promotions": ["Hero","Good", "Ranger's Ambush"],
 		"uniques": ["Ignores terrain cost"  
 			
 					//Strength scaling
-					"[+4] Strength <during the [Second Age]> <hidden from users>",		//ranged = 19, melee = 17
-					"[+8] Strength <during the [Third Age]> <hidden from users>",		//ranged = 23, melee = 21
-					"[+12] Strength <during the [Fourth Age]> <hidden from users>",		//ranged = 27, melee = 25
+					"[+4] Strength <during the [Second Age]> <hidden from users>",		//ranged = 18, melee = 18
+					"[+8] Strength <during the [Third Age]> <hidden from users>",		//ranged = 23, melee = 22
+					"[+12] Strength <during the [Fourth Age]> <hidden from users>",		//ranged = 27, melee = 26
 
 					//Abilities
 					"[+15]% Strength bonus for [Ranged] units within [1] tiles",
@@ -425,14 +447,14 @@
 		"uniqueTo": "Sindar Elves",
 		"movement": 2,
 		"strength": 14,
-		"rangedStrength": 18,
+		"rangedStrength": 17,
 		"interceptRange": 2,
 		"promotions": ["Hero","Good","Logistics","Headshot"],
 		"uniques": [
 					//Strength scaling
-					"[+4] Strength <during the [Second Age]> <hidden from users>",		//ranged = 22, melee = 18
-					"[+9] Strength <during the [Third Age]> <hidden from users>",		//ranged = 27, melee = 23
-					"[+13] Strength <during the [Fourth Age]> <hidden from users>",		//ranged = 31, melee = 27
+					"[+4] Strength <during the [Second Age]> <hidden from users>",		//ranged = 21, melee = 18
+					"[+8] Strength <during the [Third Age]> <hidden from users>",		//ranged = 25, melee = 23
+					"[+13] Strength <during the [Fourth Age]> <hidden from users>",		//ranged = 30, melee = 27
 					//Abilities
 					"[50]% Strength <vs [Mumakil] units>", 
 					"[50]% Strength <vs [Uruk-Hai] units>",
@@ -482,16 +504,16 @@
 		"unitType": "Ranged",
 		"uniqueTo": "Sindar Elves",
 		"movement": 2,
-		"strength": 18,
+		"strength": 15,
 		"range": 3,
-		"rangedStrength": 20,
+		"rangedStrength": 18,
 		"interceptRange": 2,
 		"promotions": ["Hero","Good"],
 		"uniques": [
 					//Strength scaling
-					"[+4] Strength <during the [Second Age]> <hidden from users>",		//ranged = 24, melee = 22
-					"[+8] Strength <during the [Third Age]> <hidden from users>",		//ranged = 28, melee = 26
-					"[+12] Strength <during the [Fourth Age]> <hidden from users>",		//ranged = 32, melee = 30
+					"[+5] Strength <during the [Second Age]> <hidden from users>",		//ranged = 23, melee = 20
+					"[+10] Strength <during the [Third Age]> <hidden from users>",		//ranged = 28, melee = 25
+					"[+15] Strength <during the [Fourth Age]> <hidden from users>",		//ranged = 33, melee = 30
 					//Abilities
 					"Can carry [1] [Wounded] units",
 					"Unit will heal every turn, even if it performs an action",
