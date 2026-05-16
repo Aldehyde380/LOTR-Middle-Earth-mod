@@ -177,7 +177,7 @@
 		"strength": 15,
 		"rangedStrength": 16,
 		"range": 1,
-		"promotions": ["Hero", "Good"], 
+		"promotions": ["Hero", "Good", "Grow Forest"], 
 		"uniques": ["Consumes [1] [Special]", 
 					//Strength scaling
 					"[+5] Strength <during the [Second Age]> <hidden from users>",		//ranged = 21, melee = 20
@@ -193,6 +193,23 @@
 					"Unbuildable <hidden from users>"
 					],
 
+	},
+	{
+		"name": "Huorns",
+		"unitType": "Melee",
+		"movement": 1,
+		"strength": 19,
+		"cost": 75,
+		"requiredResource": "SpecialEnt",
+		"promotions": ["Rage", "Shadow Wrap"
+		"uniques": [
+			"Double movement in [Forest]",
+			"Double movement in [Jungle]",
+			"Can move immediately once bought",
+			"Never appears as a Barbarian5 unit",
+			"Only available <with [SpecialEnt]> <if [Ent-house] is constructed>",
+			"Unbuildable <in cities without a [Ent Supply]>"
+                    ],
 	},
 	//General
 	{
