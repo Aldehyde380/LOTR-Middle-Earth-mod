@@ -25,7 +25,7 @@
 	{
 		"name": "Grow Forest",
 		"uniques": ["Comment [Activate to use Grow Forest. Cooldown: 10 turns.]",
-					"[This Unit] gains the [Grow Forest Active] status for [1] turn(s) <for [0] movement> <for units without [Animalia Cooldown]> <hidden from users>",	
+					"[This Unit] gains the [Grow Forest Active] status for [1] turn(s) <for [0] movement> <for units without [Grow Forest Cooldown]> <hidden from users>",	
 					],
 	},
 	{
@@ -130,12 +130,12 @@
 	},
 	{
 		"name": "Oakenshield",
-		"uniques": ["[This Unit] gains the [Oakenshield Active] status for [2] turn(s) <for [0] movement> <for units without [Animalia Cooldown]> <hidden from users>", 
+		"uniques": ["[This Unit] gains the [Oakenshield Active] status for [2] turn(s) <for [0] movement> <for units without [Oakenshield Cooldown]> <hidden from users>", 
 					"[This Unit] loses the [Oakenshield] promotion <upon gaining the [Oakenshield Active] status> <hidden from users>",]
 	},
 	{
 		"name": "Oakenshield Active",
-		"uniques": ["[+15]% Strength", "Withdraws before melee combat <with [100]% chance>"
+		"uniques": ["[+15]% Strength", "Withdraws before melee combat <with [100]% chance>",
 					"[This Unit] gains the [Oakenshield Cooldown] promotion <upon gaining the [Oakenshield Active] status> <hidden from users>",]
 	},
 	{
