@@ -89,9 +89,9 @@
 		"promotions": ["Hero", "Good", "Animalia"], 
 		"uniques": ["Consumes [1] [Special]", 
 					//Strength scaling
-					"[+4] Strength <during the [Second Age]> <hidden from users>",		//ranged = 18, melee = 17
-					"[+7] Strength <during the [Third Age]> <hidden from users>",		//ranged = 21, melee = 20
-					"[+10] Strength <during the [Fourth Age]> <hidden from users>",		//ranged = 24, melee = 23
+					"[+4] Strength <during the [Second Age]> <hidden from users>",		//ranged = 18 melee = 17,
+					"[+7] Strength <during the [Third Age]> <hidden from users>",		//ranged = 21 melee = 20,
+					"[+10] Strength <during the [Fourth Age]> <hidden from users>",		//ranged = 24 melee = 23,
 				
 					"Limited to [1] per Civilization <hidden from users>", 
 					"Cannot be purchased <hidden from users>",
@@ -108,9 +108,9 @@
 		"promotions": ["Hero", "Good", "Animalia"], 
 		"uniques": [ 
 					//Strength scaling
-					"[+5] Strength <during the [Second Age]> <hidden from users>",		//25
-					"[+10] Strength <during the [Third Age]> <hidden from users>",		//30
-					"[+15] Strength <during the [Fourth Age]> <hidden from users>",		//35
+					"[+5] Strength <during the [Second Age]> <hidden from users>",		//25,
+					"[+10] Strength <during the [Third Age]> <hidden from users>",		//30,
+					"[+15] Strength <during the [Fourth Age]> <hidden from users>",		//35,
 
 					"[+40]% Strength <when attacking> <vs [Land] units>",
 					"[-25]% Strength <when defending> <vs [Land] units>",
@@ -135,9 +135,9 @@
 		"promotions": ["Hero", "Good", "Animalia", "Eagle's Vision"], 
 		"uniques": [ 
 					//Strength scaling
-					"[+5] Strength <during the [Second Age]> <hidden from users>",		//25
-					"[+10] Strength <during the [Third Age]> <hidden from users>",		//30
-					"[+15] Strength <during the [Fourth Age]> <hidden from users>",		//35
+					"[+5] Strength <during the [Second Age]> <hidden from users>",		//25,
+					"[+10] Strength <during the [Third Age]> <hidden from users>",		//30,
+					"[+15] Strength <during the [Fourth Age]> <hidden from users>",		//35,
 
 					"[+1] Sight",
 					"Limited to [1] per Civilization <hidden from users>", 
@@ -155,9 +155,9 @@
 		"promotions": ["Hero", "Good", "Animalia"], 
 		"uniques": [ 
 					//Strength scaling
-					"[+5] Strength <during the [Second Age]> <hidden from users>",		//25
-					"[+10] Strength <during the [Third Age]> <hidden from users>",		//30
-					"[+15] Strength <during the [Fourth Age]> <hidden from users>",		//35
+					"[+5] Strength <during the [Second Age]> <hidden from users>",		//25,
+					"[+10] Strength <during the [Third Age]> <hidden from users>",		//30,
+					"[+15] Strength <during the [Fourth Age]> <hidden from users>",		//35,
 
 					"May travel on Water tiles without embarking",
 					"Double movement in [Water] tiles",
@@ -180,9 +180,9 @@
 		"promotions": ["Hero", "Good", "Grow Forest"], 
 		"uniques": ["Consumes [1] [Special]", 
 					//Strength scaling
-					"[+5] Strength <during the [Second Age]> <hidden from users>",		//ranged = 21, melee = 20
-					"[+10] Strength <during the [Third Age]> <hidden from users>",		//ranged = 26, melee = 25
-					"[+15] Strength <during the [Fourth Age]> <hidden from users>",		//ranged = 31, melee = 30
+					"[+5] Strength <during the [Second Age]> <hidden from users>",		//ranged = 21, melee = 20,
+					"[+10] Strength <during the [Third Age]> <hidden from users>",		//ranged = 26, melee = 25,
+					"[+15] Strength <during the [Fourth Age]> <hidden from users>",		//ranged = 31, melee = 30,
 					
 					//Abilities
 					"[+100]% Strength <vs cities>",
@@ -201,7 +201,7 @@
 		"strength": 19,
 		"cost": 75,
 		"requiredResource": "SpecialEnt",
-		"promotions": ["Rage", "Shadow Wrap"
+		"promotions": ["Rage", "Shadow Wrap"],
 		"uniques": [
 			"Double movement in [Forest]",
 			"Double movement in [Jungle]",
@@ -224,9 +224,9 @@
 					"[+50]% Strength <vs [Balrog] units> <with [50]% chance>",
 					"Free [Gandalf, the White] appears <upon being defeated>",
 					//Strength scaling
-					"[+6] Strength <during the [Second Age]> <hidden from users>",							//22
-					"[+11] Strength <during the [Third Age]> <hidden from users>",							//27
-					"[+17] Strength <during the [Fourth Age]> <hidden from users>",							//33
+					"[+6] Strength <during the [Second Age]> <hidden from users>",							//22,
+					"[+11] Strength <during the [Third Age]> <hidden from users>",							//27,
+					"[+17] Strength <during the [Fourth Age]> <hidden from users>",							//33,
 
 					"Limited to [1] per Civilization <hidden from users>", 
 					"Cannot be purchased <hidden from users>",
@@ -250,14 +250,14 @@
 					"[+50]% Strength <vs [Nazgul] units>", 
 			
 					//Strength scaling
-					"[+4] Strength <during the [Second Age]> <hidden from users>",		//ranged = 20, melee = 22
-					"[+9] Strength <during the [Third Age]> <hidden from users>",		//ranged = 25, melee = 27
-					"[+13] Strength <during the [Fourth Age]> <hidden from users>",		//ranged = 29, melee = 31
+					"[+4] Strength <during the [Second Age]> <hidden from users>",		//ranged = 20, melee = 22,
+					"[+9] Strength <during the [Third Age]> <hidden from users>",		//ranged = 25, melee = 27,
+					"[+13] Strength <during the [Fourth Age]> <hidden from users>",		//ranged = 29, melee = 31,
 				
 					"Limited to [1] per Civilization <hidden from users>", 
 					"Cannot be purchased <hidden from users>",
 					"Never appears as a Barbarian unit <hidden from users>", 
-					"Unbuildable <hidden from users>"
+					"Unbuildable <hidden from users>",
 					"Ignores Zone of Control", 
 					],
 	},
@@ -277,9 +277,9 @@
 					"Comment [[Snowmane]: Mount Snowmane to become a [Mounted] unit. Cooldown: 5 turns.]",	
 					
 					//Strength scaling
-					"[+5] Strength <during the [Second Age]> <hidden from users>",							//23
-					"[+10] Strength <during the [Third Age]> <hidden from users>",							//28
-					"[+15] Strength <during the [Fourth Age]> <hidden from users>",							//33
+					"[+5] Strength <during the [Second Age]> <hidden from users>",							//23,
+					"[+10] Strength <during the [Third Age]> <hidden from users>",							//28,
+					"[+15] Strength <during the [Fourth Age]> <hidden from users>",							//33,
 
 					"Limited to [1] per Civilization <hidden from users>", 
 					"Cannot be purchased <hidden from users>",
@@ -301,9 +301,9 @@
 					"Comment [[Éomer Éadig]: Grant Golden Age or turn to King Éomer after Theoden's death?. Cooldown: 3 turns.]",
 					
 					//Strength scaling
-					"[+6] Strength <during the [Second Age]> <hidden from users>",							//23
-					"[+11] Strength <during the [Third Age]> <hidden from users>",							//28
-					"[+18] Strength <during the [Fourth Age]> <hidden from users>",							//35
+					"[+6] Strength <during the [Second Age]> <hidden from users>",							//23,
+					"[+11] Strength <during the [Third Age]> <hidden from users>",							//28,
+					"[+18] Strength <during the [Fourth Age]> <hidden from users>",							//35,
 
 					"Limited to [1] per Civilization <hidden from users>", 
 
@@ -321,9 +321,9 @@
 		"promotions": ["Hero", "Good"],
 		"uniques": ["Comment [Strength scales with era\n\nAbilities List:]",
 					//Strength scaling
-					"[+4] Strength <during the [Second Age]> <hidden from users>",							//18
-					"[+8] Strength <during the [Third Age]> <hidden from users>",							//22
-					"[+12] Strength <during the [Fourth Age]> <hidden from users>",							//26
+					"[+4] Strength <during the [Second Age]> <hidden from users>",							//18,
+					"[+8] Strength <during the [Third Age]> <hidden from users>",							//22,
+					"[+12] Strength <during the [Fourth Age]> <hidden from users>",							//26,
 
 					"Limited to [1] per Civilization <hidden from users>", 
 
@@ -348,9 +348,9 @@
 					"Comment [[Brego]: Withdraws before melee combat for 1 turn. Cost: 30 [Honor]]",	
 			
 					//Strength scaling
-					"[+6] Strength <during the [Second Age]> <hidden from users>",							//25
-					"[+12] Strength <during the [Third Age]> <hidden from users>",							//31
-					"[+18] Strength <during the [Fourth Age]> <hidden from users>",							//37
+					"[+6] Strength <during the [Second Age]> <hidden from users>",							//25,
+					"[+12] Strength <during the [Third Age]> <hidden from users>",							//31,
+					"[+18] Strength <during the [Fourth Age]> <hidden from users>",							//37,
 					
 					"Limited to [1] per Civilization <hidden from users>", 
 					"Ignores terrain cost", 
@@ -372,12 +372,12 @@
 		"rangedStrength": 14,
 		"range": 2,
 		"promotions": ["Hero","Good", "Ranger's Ambush"],
-		"uniques": ["Ignores terrain cost"  
+		"uniques": ["Ignores terrain cost",
 			
 					//Strength scaling
-					"[+4] Strength <during the [Second Age]> <hidden from users>",		//ranged = 18, melee = 18
-					"[+8] Strength <during the [Third Age]> <hidden from users>",		//ranged = 23, melee = 22
-					"[+12] Strength <during the [Fourth Age]> <hidden from users>",		//ranged = 27, melee = 26
+					"[+4] Strength <during the [Second Age]> <hidden from users>",		//ranged = 18, melee = 18,
+					"[+8] Strength <during the [Third Age]> <hidden from users>",		//ranged = 23, melee = 22,
+					"[+12] Strength <during the [Fourth Age]> <hidden from users>",		//ranged = 27, melee = 26,
 
 					//Abilities
 					"[+15]% Strength bonus for [Ranged] units within [1] tiles",
@@ -396,9 +396,9 @@
 		"promotions": ["Hero","Good", "Horn of Gondor"],
 		"uniques": [
 			//Strength scaling
-			"[+6] Strength <during the [Second Age]> <hidden from users>",							//23
-			"[+11] Strength <during the [Third Age]> <hidden from users>",							//28
-			"[+17] Strength <during the [Fourth Age]> <hidden from users>",							//34
+			"[+6] Strength <during the [Second Age]> <hidden from users>",							//23,
+			"[+11] Strength <during the [Third Age]> <hidden from users>",							//28,
+			"[+17] Strength <during the [Fourth Age]> <hidden from users>",							//34,
 					
 			//Abilities
 			"Great General provides double combat bonus",
@@ -412,6 +412,28 @@
 	},
 	//Noldor Elves
 	{
+		"name": "Arwen",
+		"unitType": "Melee",
+		"uniqueTo": "Noldor Elves",
+		"movement": 2,
+		"strength": 14,
+		"promotions": ["Hero","Good", "Healer"],
+		"uniques": [
+			//Strength scaling
+			"[+4] Strength <during the [Second Age]> <hidden from users>",							//18,
+			"[+9] Strength <during the [Third Age]> <hidden from users>",							//23,
+			"[+13] Strength <during the [Fourth Age]> <hidden from users>",							//27,
+					
+			//Abilities
+			"[+1] Sight",
+			"[-10]% City-State Influence degradation",
+			"Can undertake a trade mission with City-State, giving a large sum of gold and [5] Influence",
+			"Limited to [1] per Civilization <hidden from users>", 
+			"Cannot be purchased <hidden from users>",
+			"Never appears as a Barbarian unit <hidden from users>", 
+			"Unbuildable <hidden from users>"],
+	},
+	{
 		"name": "Elrond",
 		"unitType": "Melee",
 		"uniqueTo": "Noldor Elves",
@@ -420,14 +442,14 @@
 		"promotions": ["Hero","Good", "Vilya"],
 		"uniques": [
 			//Strength scaling
-			"[+4] Strength <during the [Second Age]> <hidden from users>",							//20
-			"[+9] Strength <during the [Third Age]> <hidden from users>",							//25
-			"[+14] Strength <during the [Fourth Age]> <hidden from users>",							//30
+			"[+4] Strength <during the [Second Age]> <hidden from users>",							//20,
+			"[+9] Strength <during the [Third Age]> <hidden from users>",							//25,
+			"[+14] Strength <during the [Fourth Age]> <hidden from users>",							//30,
 					
 			//Abilities
 			"[+1] Sight",
 			"[-20]% City-State Influence degradation",
-			"Can undertake a trade mission with City-State, giving a large sum of gold and [5] Influence"
+			"Can undertake a trade mission with City-State, giving a large sum of gold and [5] Influence",
 			"Limited to [1] per Civilization <hidden from users>", 
 			"Cannot be purchased <hidden from users>",
 			"Never appears as a Barbarian unit <hidden from users>", 
@@ -442,9 +464,9 @@
 		"promotions": ["Hero","Good","Ósanwe","Nenya"],
 		"uniques": [
 			//Strength scaling
-			"[+5] Strength <during the [Second Age]> <hidden from users>",							//22
-			"[+10] Strength <during the [Third Age]> <hidden from users>",							//27
-			"[+14] Strength <during the [Fourth Age]> <hidden from users>",							//31
+			"[+5] Strength <during the [Second Age]> <hidden from users>",							//22,
+			"[+10] Strength <during the [Third Age]> <hidden from users>",							//27,
+			"[+14] Strength <during the [Fourth Age]> <hidden from users>",							//31,
 					
 			//Abilities
 			"[+1] Sight",
@@ -469,9 +491,9 @@
 		"promotions": ["Hero","Good","Logistics","Headshot"],
 		"uniques": [
 					//Strength scaling
-					"[+4] Strength <during the [Second Age]> <hidden from users>",		//ranged = 21, melee = 18
-					"[+8] Strength <during the [Third Age]> <hidden from users>",		//ranged = 25, melee = 23
-					"[+13] Strength <during the [Fourth Age]> <hidden from users>",		//ranged = 30, melee = 27
+					"[+4] Strength <during the [Second Age]> <hidden from users>",		//ranged = 21, melee = 18,
+					"[+8] Strength <during the [Third Age]> <hidden from users>",		//ranged = 25, melee = 23,
+					"[+13] Strength <during the [Fourth Age]> <hidden from users>",		//ranged = 30, melee = 27,
 					//Abilities
 					"[50]% Strength <vs [Mumakil] units>", 
 					"[50]% Strength <vs [Uruk-Hai] units>",
@@ -491,9 +513,9 @@
 		"promotions": ["Hero","Good"],
 		"uniques": [
 					//Strength scaling
-					"[+5] Strength <during the [Second Age]> <hidden from users>",							//22
-					"[+10] Strength <during the [Third Age]> <hidden from users>",							//27
-					"[+15] Strength <during the [Fourth Age]> <hidden from users>",							//32
+					"[+5] Strength <during the [Second Age]> <hidden from users>",							//22,
+					"[+10] Strength <during the [Third Age]> <hidden from users>",							//27,
+					"[+15] Strength <during the [Fourth Age]> <hidden from users>",							//32,
 					//Abilities 
 					"[Enemy] units gain the [Sleeping] promotion <upon entering a [River] tile> <for [2] turns>",
 					"[+50]% Strength <when stacked with [War Elk] unit>",
@@ -528,9 +550,9 @@
 		"promotions": ["Hero","Good"],
 		"uniques": [
 					//Strength scaling
-					"[+5] Strength <during the [Second Age]> <hidden from users>",		//ranged = 23, melee = 20
-					"[+10] Strength <during the [Third Age]> <hidden from users>",		//ranged = 28, melee = 25
-					"[+15] Strength <during the [Fourth Age]> <hidden from users>",		//ranged = 33, melee = 30
+					"[+5] Strength <during the [Second Age]> <hidden from users>",		//ranged = 23, melee = 20,
+					"[+10] Strength <during the [Third Age]> <hidden from users>",		//ranged = 28, melee = 25,
+					"[+15] Strength <during the [Fourth Age]> <hidden from users>",		//ranged = 33, melee = 30,
 					//Abilities
 					"Can carry [1] [Wounded] units",
 					"Unit will heal every turn, even if it performs an action",
@@ -556,12 +578,12 @@
 		"promotions": ["Hero","Good","Heavily Armored", "Battle Frenzy"],
 		"uniques": ["Comment [Strength scales with era\n\nAbilities List:]",
 					//Strength scaling
-					"[+6] Strength <during the [Second Age]> <hidden from users>",							//24
-					"[+12] Strength <during the [Third Age]> <hidden from users>",							//30
-					"[+18] Strength <during the [Fourth Age]> <hidden from users>",							//36
+					"[+6] Strength <during the [Second Age]> <hidden from users>",							//24,
+					"[+12] Strength <during the [Third Age]> <hidden from users>",							//30,
+					"[+18] Strength <during the [Fourth Age]> <hidden from users>",							//36,
 			
 					//Abilities				
-					"[+50]% Strength <when attacking>"
+					"[+50]% Strength <when attacking>",
 					"Limited to [1] per Civilization <hidden from users>", 
 					"Ignores terrain cost", 
 			
@@ -579,17 +601,43 @@
 		"promotions": ["Hero","Good","Oakenshield"],
 		"uniques": ["Comment [Strength scales with era\n\nAbilities List:]",
 					//Strength scaling
-					"[+5] Strength <during the [Second Age]> <hidden from users>",							//23
-					"[+10] Strength <during the [Third Age]> <hidden from users>",							//28
-					"[+15] Strength <during the [Fourth Age]> <hidden from users>",							//33
+					"[+5] Strength <during the [Second Age]> <hidden from users>",							//23,
+					"[+10] Strength <during the [Third Age]> <hidden from users>",							//28,
+					"[+15] Strength <during the [Fourth Age]> <hidden from users>",							//33,
 			
 					//Abilities				
-					"[+50]% Strength <when attacking>"
-					"[+50]% Strength <vs [Goblins] units>"
-					"[-20]% City-State Influence degradation"
-					"Earn [5]% of killed [Enemy] unit's [Cost] as [Gold]"
+					"[+50]% Strength <when attacking>",
+					"[+50]% Strength <vs [Goblins] units>",
+					"[-20]% City-State Influence degradation",
+					"Earn [5]% of killed [Enemy] unit's [Cost] as [Gold]",
 					"Limited to [1] per Civilization <hidden from users>", 
 					
+					"Cannot be purchased <hidden from users>",
+					"Never appears as a Barbarian unit <hidden from users>", 
+					"Unbuildable <hidden from users>",
+					],
+	},
+	{
+		"name": "Durin",
+		"unitType": "Melee",
+		"uniqueTo": "Dwarves",
+		"movement": 2,
+		"strength": 18,
+		"promotions": ["Hero","Good"],
+		"uniques": ["Comment [Strength scales with era\n\nAbilities List:]",
+					//Strength scaling
+					"[+5] Strength <during the [Second Age]> <hidden from users>",							//23,
+					"[+10] Strength <during the [Third Age]> <hidden from users>",							//28,
+					"[+15] Strength <during the [Fourth Age]> <hidden from users>",							//33,
+			
+					//Abilities				
+					"[+50]% Strength <when attacking>",
+					"[+15]% Strength bonus for [Military] units within [2] tiles",
+					"May found a religion", 
+					"Gain enough Faith for a Pantheon",
+					"Empire enters golden age",
+					"Limited to [1] per Civilization <hidden from users>", 
+			
 					"Cannot be purchased <hidden from users>",
 					"Never appears as a Barbarian unit <hidden from users>", 
 					"Unbuildable <hidden from users>",
@@ -604,12 +652,12 @@
 		"promotions": ["Hero","Good"],
 		"uniques": ["Comment [Strength scales with era\n\nAbilities List:]",
 					//Strength scaling
-					"[+6] Strength <during the [Second Age]> <hidden from users>",							//25
-					"[+11] Strength <during the [Third Age]> <hidden from users>",							//30
-					"[+17] Strength <during the [Fourth Age]> <hidden from users>",							//36
+					"[+6] Strength <during the [Second Age]> <hidden from users>",							//25,
+					"[+11] Strength <during the [Third Age]> <hidden from users>",							//30,
+					"[+17] Strength <during the [Fourth Age]> <hidden from users>",							//36,
 			
 					//Abilities				
-					"[+50]% Strength <when attacking>"
+					"[+50]% Strength <when attacking>",
 					"Limited to [1] per Civilization <hidden from users>", 
 					"[+50]% Strength <when stacked with [War Boar] unit>",
 					"Free [War Boar] appears <after discovering [Horseback Riding]>",
@@ -631,7 +679,98 @@
 		"promotions": ["Formation I"],
 		"attackSound": "horse"
 	},
+	//Shire
+	{
+		"name": "Frodo",
+		"unitType": "Melee",
+		"uniqueTo": "Shire",
+		"movement": 2,
+		"strength": 15,
+		"promotions": ["Hero","Good", "One Ring"],
+		"uniques": ["Comment [Strength scales with era\n\nAbilities List:]",
+					//Strength scaling
+					"[+3] Strength <during the [Second Age]> <hidden from users>",							//18,
+					"[+6] Strength <during the [Third Age]> <hidden from users>",							//21,
+					"[+9] Strength <during the [Fourth Age]> <hidden from users>",							//24,
+			
+					//Abilities				
+					"Limited to [1] per Civilization <hidden from users>", 
+					"Ignores terrain cost", 
+					"[+50]% Strength <vs [Mordor] units>",
+					"Cannot be purchased <hidden from users>",
+					"Never appears as a Barbarian unit <hidden from users>", 
+					"Unbuildable <hidden from users>",
+					],
+	},
+	{
+		"name": "Samwise",
+		"unitType": "Melee",
+		"uniqueTo": "Shire",
+		"movement": 2,
+		"strength": 14,
+		"promotions": ["Hero","Good"],
+		"uniques": ["Comment [Strength scales with era\n\nAbilities List:]",
+					//Strength scaling
+					"[+4] Strength <during the [Second Age]> <hidden from users>",							//18,
+					"[+8] Strength <during the [Third Age]> <hidden from users>",							//22,
+					"[+11] Strength <during the [Fourth Age]> <hidden from users>",							//25,
+			
+					//Abilities		
+					"[+200]% Strength <vs [Shelob] units>",
+					"[+200]% Strength <vs [Ungoliant] units>",
+					"[+25]% Strength <vs [Mordor] units>",
+					"Limited to [1] per Civilization <hidden from users>", 
+					"Ignores terrain cost", 
+					"Cannot be purchased <hidden from users>",
+					"Never appears as a Barbarian unit <hidden from users>", 
+					"Unbuildable <hidden from users>",
+					],
+	},
+	{
+		"name": "Merry",
+		"unitType": "Melee",
+		"uniqueTo": "Shire",
+		"movement": 2,
+		"strength": 15,
+		"promotions": ["Hero","Good", "Horn of Rohan", "Ent-draught"],
+		"uniques": ["Comment [Strength scales with era\n\nAbilities List:]",
+					//Strength scaling
+					"[+4] Strength <during the [Second Age]> <hidden from users>",							//19,
+					"[+7] Strength <during the [Third Age]> <hidden from users>",							//22,
+					"[+11] Strength <during the [Fourth Age]> <hidden from users>",							//26,
+			
+					//Abilities		
+					"[+100]% Strength <vs [Witch-King] units>",
+					"[+25]% Strength <vs [Evil] units>",
+					"Limited to [1] per Civilization <hidden from users>", 
+					"Cannot be purchased <hidden from users>",
+					"Never appears as a Barbarian unit <hidden from users>", 
+					"Unbuildable <hidden from users>",
+					],
+	},
+	{
+		"name": "Pippen",
+		"unitType": "Melee",
+		"uniqueTo": "Shire",
+		"movement": 2,
+		"strength": 15,
+		"promotions": ["Hero","Good", "Ent-draught"],
+		"uniques": ["Comment [Strength scales with era\n\nAbilities List:]",
+					//Strength scaling
+					"[+4] Strength <during the [Second Age]> <hidden from users>",							//19,
+					"[+7] Strength <during the [Third Age]> <hidden from users>",							//22,
+					"[+11] Strength <during the [Fourth Age]> <hidden from users>",							//26,
+			
+					//Abilities		
+					"[+50]% Strength <vs [Evil] units>",
+					"Limited to [1] per Civilization <hidden from users>", 
+					"Cannot be purchased <hidden from users>",
+					"Never appears as a Barbarian unit <hidden from users>", 
+					"Unbuildable <hidden from users>",
+					],
+	},
 	//Evil Hero Units
+	//Isengard
 	{
 		"name": "Wormtongue",
 		"unitType": "Melee",
@@ -639,7 +778,12 @@
 		"movement": 3,
 		"strength": 12,
 		"promotions": ["Hero","Evil"],
-		"uniques": ["Unbuildable", "Withdraws before melee combat <with [100]% chance>"],
+		"uniques": ["Comment [Strength scales with era\n\nAbilities List:]",
+					//Strength scaling
+					"[+4] Strength <during the [Second Age]> <hidden from users>",							//19,
+					"[+7] Strength <during the [Third Age]> <hidden from users>",							//22,
+					"[+11] Strength <during the [Fourth Age]> <hidden from users>",							//26,
+					"Unbuildable", "Withdraws before melee combat <with [100]% chance>"],
 	},
 	{
 		"name": "Lieutenant Gothmog",
