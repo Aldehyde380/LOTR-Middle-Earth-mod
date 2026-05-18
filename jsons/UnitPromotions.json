@@ -157,13 +157,40 @@
 					"[This Unit] loses the [Stealth] status <upon entering combat>",
 					"Withdraws before melee combat <with [100]% chance>",
 					"Triggers the following global alert: [One Ring has been worn. You have been warned Sauron of Mordor.]",
-					"[This Unit] gains the [One Ring Cooldown] promotion <upon gaining the [One Ring Active] status> <hidden from users>",]
+					"[This Unit] gains the [One Ring Cooldown] status for [7] turns <upon gaining the [One Ring Active] status> <hidden from users>",]
 	},
 	{
 		"name": "One Ring Cooldown",
 		"uniques": ["Comment [One Ring is on Cooldown]"]
 	},
-
+			{
+		"name": "Ent-draught",
+		"uniques": ["[This Unit] gains the [Ent-draught Active] status for [3] turn(s) <for [0] movement> <for units without [Ent-draught Cooldown]> <hidden from users>"]
+	},
+	{
+		"name": "Ent-draught Active",
+		"uniques": ["[+50]% Strength",
+					"[This Unit] gains the [Ent-draught Cooldown] status for [10] turns <upon gaining the [Ent-draught Active] status> <hidden from users>",]
+	},
+	{
+		"name": "Ent-draught Cooldown",
+		"uniques": ["Comment [Ent-draught is on Cooldown]"]
+	},
+	{
+		"name": "Horn of Rohan",
+		"uniques": ["[This Unit] gains the [Horn of Rohan Active] status for [3] turn(s) <for [0] movement> <for units without [Horn of Rohan Cooldown]> <hidden from users>"]
+	},
+	{
+		"name": "Horn of Rohan Active",
+		"uniques": ["[Shire] units gain the [Debuff Immune] status for [1] turn",
+					"[+15]% Strength bonus for [Shire] units within [2] tiles <for [2] turns>",
+					"[This Unit] gains the [Horn of Rohan Cooldown] status for [10] turns <upon gaining the [Horn of Rohant Active] status> <hidden from users>",
+					]
+	},
+		{
+		"name": "Horn of Rohan Cooldown",
+		"uniques": ["Comment [Horn of Rohan is on Cooldown]"]
+	},
 	//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~//
 	//							Debuff List																				  //
 	//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~//
