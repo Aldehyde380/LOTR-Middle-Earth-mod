@@ -62,7 +62,7 @@
 		//Gondor
 	{
 		"name": "Ranger's Ambush",
-		"uniques": ["[Ranged] units gain the [Stealth] promotion <for every [3] [Ranged] Units> <for every [3] [turns]",]
+		"uniques": ["[Ranged] units gain the [Stealth] promotion <for every [3] [Ranged] Units> <for every [3] [turns]"]
 	},
 	{
 		"name": "Stealth",
@@ -146,6 +146,24 @@
 		"name": "Oakenshield",
 		"uniques": ["Withdraws before melee combat <with [100]% chance> "]
 	},
+	//Shire
+		{
+		"name": "One Ring",
+		"uniques": ["[This Unit] gains the [One Ring Active] status for [2] turn(s) <for [0] movement> <for units without [One Ring Cooldown]> <hidden from users>"]
+	},
+	{
+		"name": "One Ring Active",
+		"uniques": ["[This Unit] gains the [Stealth] status for [2] turns", 
+					"[This Unit] loses the [Stealth] status <upon entering combat>",
+					"Withdraws before melee combat <with [100]% chance>",
+					"Triggers the following global alert: [One Ring has been worn. You have been warned Sauron of Mordor.]",
+					"[This Unit] gains the [One Ring Cooldown] promotion <upon gaining the [One Ring Active] status> <hidden from users>",]
+	},
+	{
+		"name": "One Ring Cooldown",
+		"uniques": ["Comment [One Ring is on Cooldown]"]
+	},
+
 	//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~//
 	//							Debuff List																				  //
 	//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~//
