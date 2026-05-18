@@ -414,14 +414,6 @@
 	},
 	//Gondor
 	{
-		"name": "Summon Denethor",
-		"isWonder": true,
-		"uniqueTo": "Gondor",
-		"cost": 160,
-		"uniques": ["Hero Spawner","[-15]% Production when constructing [Hero Spawner] wonders [in all cities]","[-2 Culture] <after adopting [Constitution]>","Free [Denethor] appears", "Unsellable", 
-				"Only available <if [Good] is constructed>"],
-	},
-	{
 		"name": "Summon Faramir",
 		"isWonder": true,
 		"uniqueTo": "Gondor",
@@ -547,20 +539,12 @@
 	},
 	//Shire
 	{
-		"name": "Summon Peregrin Took",
-		"isWonder": true,
-		"uniqueTo": "Shire",
-		"cost": 160,
-		"uniques": ["Hero Spawner","[-15]% Production when constructing [Hero Spawner] wonders [in all cities]","[-2 Culture] <after adopting [Constitution]>","Free [Bilbo] appears", "Unsellable", 
-				"Only available <if [Good] is constructed>"],
-	},
-	{
 		"name": "Summon Frodo",
 		"isWonder": true,
 		"uniqueTo": "Shire",
 		"cost": 160,
 		"uniques": ["Hero Spawner","[-15]% Production when constructing [Hero Spawner] wonders [in all cities]","[-2 Culture] <after adopting [Constitution]>","Free [Frodo] appears", "Unsellable", 
-				"Only available <if [Good] is constructed>"],
+				"Only available <if [Good] is constructed>", "Only available <if [Summon Sauron]> is constructed>"],
 	},
 	{
 		"name": "Summon Samwise",
