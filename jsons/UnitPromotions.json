@@ -689,5 +689,20 @@
 	{
 		"name": "Evil", 
 		"uniques": [],
-	}
+	},
+	{
+		"name": "Healer",
+		"uniques": ["[This Unit] gains the [Healer Active] status for [3] turn(s) <for [0] movement> <for units without [Healer CD]> <hidden from users>",
+					"Comment [Activate to gain Healer for 3 turns. Cooldown: 10 turns.]"]
+	},
+	{
+		"name": "Healer Active",
+		"uniques": ["Healer Active <hidden from users>", 
+					"[This Unit] gains the [Healer CD] status for [10] turn(s) <upon gaining the [Healer Active] status> <hidden from users>",
+					"Comment [All adjacent Land units heal [5] HP at turn end]"]
+	},
+	{
+		"name": "Healer CD",
+		"uniques": ["Comment [Healer on Cooldown]"]
+	},
 ]
