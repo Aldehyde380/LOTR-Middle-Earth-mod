@@ -1,1 +1,14 @@
-
+[
+	{
+        "name": "Cult of Saruman",
+        "type": "Pantheon",
+        "uniques": ["[+3 Faith] [in cities following this religion]", "Only available <for [Isengard] Civilizations> <hidden from users>"]
+    },
+    {
+        "name": "Sauronite Worship",
+        "type": "Pantheon",
+        "uniques": [ "[-20]% Unhappiness from [Followers of this Religion] [in all cities]",
+          "Gifts of Gold to City-States generate [+20]% more Influence",
+					"Only available <for [Mordor] Civilizations> <hidden from users>"]
+    },
+  
